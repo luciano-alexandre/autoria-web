@@ -46,5 +46,3 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Provas Práticas
 - Mini-projetos por unidade
 - Projeto final
-
-Detalhamento em: [Avaliação](./avaliacao/01-avaliacao-rubricas.md)
