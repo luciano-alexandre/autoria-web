@@ -4,7 +4,6 @@
 - Disciplina: Autoria Web
 - Carga horária total: 60h
 - Público: Curso Técnico Integrado em Informática
-- Pré-requisitos sugeridos: lógica básica e noções de uso de computador/internet
 
 ## Ementa
 Estudo dos conceitos introdutórios de HTML e CSS. Introdução ao JavaScript. Uso de JavaScript para manipulação de DOM. Abordagem de conceitos sobre árvore DOM. Criação de páginas responsivas.
@@ -43,9 +42,9 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Fechamento e apresentações: 3h
 
 ## Avaliação (resumo)
-- Exercícios práticos (listas): 30%
-- Mini-projetos por unidade: 30%
-- Projeto integrador final: 30%
-- Participação, organização e documentação: 10%
+- Exercícios práticos (listas)
+- Provas Práticas
+- Mini-projetos por unidade
+- Projeto final
 
-Detalhamento em: [Avaliação e Rubricas](./avaliacao/01-avaliacao-rubricas.md)
+Detalhamento em: [Avaliação](./avaliacao/01-avaliacao-rubricas.md)
