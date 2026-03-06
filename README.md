@@ -1,5 +1,10 @@
 # Disciplina: Autoria Web (60h)
 
+## Identificação do Curso
+- Turma: 1 ANO INTEGRADO EM INFORMÁTICA
+- Instituição: IFRN CAMPUS CURRAIS NOVOS
+- Professor: Luciano Alexandre de Farias Silva
+
 ## Estrutura
 - [Visão Geral da Disciplina](docs/00-visao-geral.md)
 - [Cronograma de 60h](docs/01-cronograma-60h.md)
