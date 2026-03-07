@@ -71,11 +71,7 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 | 40 | 1,5h | Apresentações de projetos finais e fechamento (dia reservado) | Apresentação final - turma B | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Marcos de Avaliação
-- Bloco 1: Lista 1 (Encontro 9) + Prova prática 1 (Encontro 10).
-- Bloco 2: Lista 2 (Encontro 17) + Mini projeto (Encontros 18 e 19) + Prova 2 (Encontro 20).
-- Bloco 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
-- Bloco 4: Projeto final integrador (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
-
-## Plano de Contingência
-- Se houver suspensão de aula: converter encontro em atividade assíncrona com roteiro + exercício de reposição.
-- Se laboratório indisponível: atividades unplugged (planejamento de estrutura, wireframes, revisão de código impresso, pseudocódigo JS).
+- Unidade 1: Lista 1 (Encontro 9) + Prova prática 1 (Encontro 10).
+- Unidade 2: Lista 2 (Encontro 17) + Mini projeto (Encontros 18 e 19) + Prova 2 (Encontro 20).
+- Unidade 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
+- Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
