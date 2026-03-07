@@ -4,19 +4,6 @@
 **Carga prevista:** 1,5h  
 **Entregável previsto:** Plano de estudo individual
 
-## O que é Front-end?
-Front-end é a área do desenvolvimento web responsável por tudo o que o usuário vê e com o que interage no navegador: textos, botões, formulários, menus, imagens, cores, layout e respostas da interface às ações do usuário.
-
-Em termos práticos, o front-end:
-- transforma requisitos em interfaces utilizáveis;
-- conecta design, usabilidade e programação;
-- garante que a aplicação funcione bem em diferentes telas e dispositivos.
-
-No contexto da Web, o front-end é construído principalmente com:
-- **HTML** para estrutura;
-- **CSS** para apresentação visual;
-- **JavaScript** para comportamento e interatividade.
-
 ## Visão Geral do Encontro
 Este encontro apresenta o panorama completo da Web moderna. O foco é entender como **HTML, CSS e JavaScript** surgiram, por que se tornaram essenciais para a Computação e como atuam juntos na construção de páginas e aplicações web.
 
@@ -31,7 +18,20 @@ Este encontro apresenta o panorama completo da Web moderna. O foco é entender c
 - História e evolução dessas linguagens.
 - Importância dessas tecnologias para a Computação.
 
-## 1) Papel de HTML, CSS e JavaScript no Front-end
+## 1) O que é Front-end?
+Front-end é a área do desenvolvimento web responsável por tudo o que o usuário vê e com o que interage no navegador: textos, botões, formulários, menus, imagens, cores, layout e respostas da interface às ações do usuário.
+
+Em termos práticos, o front-end:
+- transforma requisitos em interfaces utilizáveis;
+- conecta design, usabilidade e programação;
+- garante que a aplicação funcione bem em diferentes telas e dispositivos.
+
+No contexto da Web, o front-end é construído principalmente com:
+- **HTML** para estrutura;
+- **CSS** para apresentação visual;
+- **JavaScript** para comportamento e interatividade.
+
+## 2) Papel de HTML, CSS e JavaScript no Front-end
 As três linguagens formam uma arquitetura em camadas:
 
 - **HTML (HyperText Markup Language):** define a **estrutura semântica** do conteúdo.
@@ -114,7 +114,7 @@ form.addEventListener("submit", (e) => {
 
 Aplicação: validação de formulários, menus dinâmicos, filtros, dashboards, comunicação com APIs e aplicações web completas.
 
-## 2) História do HTML, CSS e JavaScript
+## 3) História do HTML, CSS e JavaScript
 
 ### HTML
 - **Origem:** início dos anos 1990.
@@ -134,7 +134,7 @@ Aplicação: validação de formulários, menus dinâmicos, filtros, dashboards,
 - **Contexto:** adicionar interatividade em páginas que antes eram predominantemente estáticas.
 - **Marco histórico:** padronização como **ECMAScript** em 1997.
 
-## 3) Linha do Tempo Resumida
+## 4) Linha do Tempo Resumida
 
 | Ano | Marco |
 |---|---|
@@ -145,7 +145,7 @@ Aplicação: validação de formulários, menus dinâmicos, filtros, dashboards,
 | 1997 | JavaScript padronizado como ECMAScript |
 | 2014 | HTML5 consolidado como recomendação W3C |
 
-## 4) Importância para a Computação
+## 5) Importância para a Computação
 HTML, CSS e JavaScript são fundamentais porque:
 
 - introduzem a base de engenharia de interfaces digitais;
@@ -159,7 +159,7 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 - pensamento visual e responsivo (CSS);
 - raciocínio lógico e orientado a eventos (JavaScript).
 
-## 5) Exemplos Históricos de Uso
+## 6) Exemplos Históricos de Uso
 
 ### HTML nos primeiros sites
 - **`info.cern.ch`**: primeiro site da Web, com páginas textuais e links navegáveis.
@@ -173,12 +173,12 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 - menus e efeitos de navegação;
 - atualização de partes da interface sem recarregar toda a página (evoluindo para AJAX nos anos 2000).
 
-## 6) Exemplo de Resultado após Execução
+## 7) Exemplo de Resultado após Execução
 A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no navegador após execução:
 
 ![Simulação de renderização da página de cadastro](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-resultado-renderizacao.svg)
 
-## 7) Exemplo Integrado (HTML + CSS + JavaScript)
+## 8) Exemplo Integrado (HTML + CSS + JavaScript)
 ```html
 <!doctype html>
 <html lang="pt-BR">
@@ -212,13 +212,13 @@ A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no n
 </html>
 ```
 
-## 8) Erros Comuns de Iniciantes
+## 9) Erros Comuns de Iniciantes
 - confundir HTML com linguagem de programação;
 - tentar resolver layout complexo sem dominar box model e fluxo normal;
 - usar JavaScript antes de consolidar semântica e estrutura da página;
 - copiar código sem testar em pequenas etapas.
 
-## 9) Materiais para Aprofundamento
+## 10) Materiais para Aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
