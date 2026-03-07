@@ -2,73 +2,109 @@
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregável previsto:** Formulário funcional
+**Entregavel previsto:** Formulário funcional
 
-## Explicação do conteúdo
-Você vai construir formulários úteis e acessíveis, com campos adequados e validação nativa do navegador.
+## Explicacao geral do encontro
+Este encontro trabalha **Formulários e validações nativas** com foco em fundamentos de Web/HTML e autonomia de estudo.
 
-![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+
+![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg)
 
 ## Conceitos essenciais
-- Campos de formulário e `label`.
-- Atributos de validação (`required`, `pattern`, etc.).
-- Mensagens de erro no navegador.
+- Estrutura de formularios com label e campos adequados.
+- Validacoes nativas com required, minlength e type.
+- Mensagens de erro claras para o usuario.
 
-## Exemplo prático
-Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
+## Explicacao detalhada dos conceitos essenciais
+### 1) Estrutura de formularios com label e campos adequados.
+Cada campo precisa de rotulo claro para orientar preenchimento e acessibilidade.
 
+#### Exemplo aplicado
 ```html
 <form>
   <label for="email">E-mail</label>
   <input id="email" type="email" required />
-
-  <label for="mensagem">Mensagem</label>
-  <textarea id="mensagem" minlength="10" required></textarea>
-
-  <button type="submit">Enviar</button>
 </form>
 ```
 
-## Como estudar este encontro sozinho
-1. Leia a explicação e destaque os conceitos-chave.
-2. Digite o exemplo de código manualmente.
-3. Faça pequenas alterações e observe o resultado.
-4. Resolva uma variação do exercício com seu próprio tema.
+### 2) Validacoes nativas com required, minlength e type.
+Validacoes nativas reduzem erros de envio e padronizam qualidade dos dados.
 
-## Dificuldades comuns de iniciantes
-- Tentar avançar sem revisar a base.
-- Copiar código sem compreender a lógica.
-- Não testar mudanças em etapas curtas.
+#### Exemplo aplicado
+```html
+<form>
+  <label for="email">E-mail</label>
+  <input id="email" type="email" required />
+</form>
+```
+
+### 3) Mensagens de erro claras para o usuario.
+Mensagens devem dizer o que ocorreu e como corrigir, de forma objetiva.
+
+#### Exemplo aplicado
+```html
+<form>
+  <label for="email">E-mail</label>
+  <input id="email" type="email" required />
+</form>
+```
+
+## Exemplo principal da aula
+```html
+<main>
+  <h1>Pagina de estudo</h1>
+  <p>Conteudo principal da aula.</p>
+</main>
+```
+
+## Exemplos adicionais
+```html
+<nav><a href="#inicio">Inicio</a><a href="#sobre">Sobre</a></nav>
+```
+
+```html
+<form><input required placeholder="Nome" /><button>Enviar</button></form>
+```
+
+## Como estudar este encontro sozinho
+1. Leia a explicacao geral e os conceitos com atencao.
+2. Rode os exemplos e altere valores/propriedades para testar entendimento.
+3. Reproduza sem copiar e compare com seu resultado.
+4. Resolva uma variacao do tema no seu contexto.
+
+## Erros comuns de iniciantes
+- Avancar sem consolidar a base do encontro.
+- Copiar codigo sem compreender cada linha.
+- Nao validar comportamento no navegador a cada alteracao.
 
 ## Materiais para aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [W3C - HTML](https://html.spec.whatwg.org/)
-- [W3C - Introdução à acessibilidade](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [W3C - HTML Living Standard](https://html.spec.whatwg.org/)
+- [W3C - Acessibilidade na Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [freeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
-## Checklist de compreensão
-- [ ] Entendi o conceito principal da aula.
-- [ ] Consegui executar e adaptar o exemplo.
+## Checklist de compreensao
+- [ ] Entendi os tres conceitos essenciais com minhas palavras.
+- [ ] Executei os exemplos e fiz variacao propria.
+- [ ] Revisei erros comuns e corrigi pontos de duvida.
 - [ ] Entreguei a atividade prevista no cronograma.
-- [ ] Sei quais pontos ainda preciso revisar.
-
-
-
 
 ## Resumo final
-Neste encontro, voce estudou **Formulários e validações nativas** dentro dos fundamentos de HTML e estrutura da Web. O objetivo principal foi construir base conceitual e pratica para leitura, escrita e organizacao de paginas com clareza.
+Neste encontro, voce estudou **Formulários e validações nativas** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual e a ideia central do tema "Formulários e validações nativas" nesta unidade?
-Gabarito: Compreender a base de estruturacao de conteudo na Web e aplicar esse conhecimento na construcao de paginas em HTML.
+1. Qual problema tecnico "Formulários e validações nativas" ajuda a resolver?
+Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
-2. Por que separar estrutura (HTML) de estilo (CSS) e comportamento (JavaScript) e importante?
-Gabarito: Porque facilita manutencao, organizacao do codigo, trabalho em equipe e evolucao do projeto.
+2. Como validar se voce realmente entendeu o conceito?
+Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
-3. Cite uma boa pratica de acessibilidade relacionada a HTML.
-Gabarito: Usar semantica adequada e incluir texto alternativo em imagens quando necessario.
+3. Cite um erro comum de iniciante nesse tema.
+Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
 
-4. Qual erro comum de iniciantes deve ser evitado nesse tipo de conteudo?
-Gabarito: Copiar codigo sem entender e nao testar em etapas pequenas.
+4. Qual verificacao minima deve ser feita antes da entrega?
+Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
 
-5. O que voce deve revisar antes de entregar uma atividade desta unidade?
-Gabarito: Estrutura correta do HTML, legibilidade do conteudo, semantica basica e funcionamento do que foi pedido.
+5. Como aprofundar apos a aula?
+Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

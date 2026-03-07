@@ -2,72 +2,101 @@
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregável previsto:** Plano de estudo individual
+**Entregavel previsto:** Plano de estudo individual
 
-## Explicação do conteúdo
-Você vai entender como a disciplina está organizada e por que HTML, CSS e JavaScript formam a base do desenvolvimento web. A ideia é enxergar o panorama completo antes de aprofundar cada linguagem.
+## Explicacao geral do encontro
+Este encontro trabalha **Apresentação da disciplina, combinados e visão geral da Web** com foco em fundamentos de Web/HTML e autonomia de estudo.
 
-![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+
+![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg)
 
 ## Conceitos essenciais
-- Papel de HTML, CSS e JavaScript.
-- Organização da disciplina e rotina de estudo.
-- Visão de projeto web do início ao fim.
+- Papel de HTML, CSS e JavaScript no front-end.
+- Estrutura da disciplina e fluxo de aprendizagem.
+- Organizacao pessoal para acompanhar atividades.
 
-## Exemplo prático
-Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
+## Explicacao detalhada dos conceitos essenciais
+### 1) Papel de HTML, CSS e JavaScript no front-end.
+HTML estrutura conteudo, CSS define apresentacao e JavaScript adiciona comportamento. Separar camadas reduz acoplamento e facilita manutencao.
 
+#### Exemplo aplicado
+```js
+const idade = 16;
+console.log(idade >= 16 ? "ok" : "pendente");
+```
+
+### 2) Estrutura da disciplina e fluxo de aprendizagem.
+A aprendizagem e cumulativa: base de HTML, depois CSS, depois JS/DOM e por fim integracao em projeto.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+### 3) Organizacao pessoal para acompanhar atividades.
+Estudo curto e frequente tende a funcionar melhor para iniciantes do que longas maratonas.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+## Exemplo principal da aula
 ```html
 <main>
-  <h1>Mapa da Web</h1>
-  <ul>
-    <li>HTML: estrutura</li>
-    <li>CSS: estilo</li>
-    <li>JavaScript: interação</li>
-  </ul>
+  <h1>Pagina de estudo</h1>
+  <p>Conteudo principal da aula.</p>
 </main>
 ```
 
-## Como estudar este encontro sozinho
-1. Leia a explicação e destaque os conceitos-chave.
-2. Digite o exemplo de código manualmente.
-3. Faça pequenas alterações e observe o resultado.
-4. Resolva uma variação do exercício com seu próprio tema.
+## Exemplos adicionais
+```html
+<nav><a href="#inicio">Inicio</a><a href="#sobre">Sobre</a></nav>
+```
 
-## Dificuldades comuns de iniciantes
-- Tentar avançar sem revisar a base.
-- Copiar código sem compreender a lógica.
-- Não testar mudanças em etapas curtas.
+```html
+<form><input required placeholder="Nome" /><button>Enviar</button></form>
+```
+
+## Como estudar este encontro sozinho
+1. Leia a explicacao geral e os conceitos com atencao.
+2. Rode os exemplos e altere valores/propriedades para testar entendimento.
+3. Reproduza sem copiar e compare com seu resultado.
+4. Resolva uma variacao do tema no seu contexto.
+
+## Erros comuns de iniciantes
+- Avancar sem consolidar a base do encontro.
+- Copiar codigo sem compreender cada linha.
+- Nao validar comportamento no navegador a cada alteracao.
 
 ## Materiais para aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [W3C - HTML](https://html.spec.whatwg.org/)
-- [W3C - Introdução à acessibilidade](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [W3C - HTML Living Standard](https://html.spec.whatwg.org/)
+- [W3C - Acessibilidade na Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [freeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
-## Checklist de compreensão
-- [ ] Entendi o conceito principal da aula.
-- [ ] Consegui executar e adaptar o exemplo.
+## Checklist de compreensao
+- [ ] Entendi os tres conceitos essenciais com minhas palavras.
+- [ ] Executei os exemplos e fiz variacao propria.
+- [ ] Revisei erros comuns e corrigi pontos de duvida.
 - [ ] Entreguei a atividade prevista no cronograma.
-- [ ] Sei quais pontos ainda preciso revisar.
-
-
-
 
 ## Resumo final
-Neste encontro, voce estudou **Apresentação da disciplina, combinados e visão geral da Web** dentro dos fundamentos de HTML e estrutura da Web. O objetivo principal foi construir base conceitual e pratica para leitura, escrita e organizacao de paginas com clareza.
+Neste encontro, voce estudou **Apresentação da disciplina, combinados e visão geral da Web** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual e a ideia central do tema "Apresentação da disciplina, combinados e visão geral da Web" nesta unidade?
-Gabarito: Compreender a base de estruturacao de conteudo na Web e aplicar esse conhecimento na construcao de paginas em HTML.
+1. Qual problema tecnico "Apresentação da disciplina, combinados e visão geral da Web" ajuda a resolver?
+Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
-2. Por que separar estrutura (HTML) de estilo (CSS) e comportamento (JavaScript) e importante?
-Gabarito: Porque facilita manutencao, organizacao do codigo, trabalho em equipe e evolucao do projeto.
+2. Como validar se voce realmente entendeu o conceito?
+Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
-3. Cite uma boa pratica de acessibilidade relacionada a HTML.
-Gabarito: Usar semantica adequada e incluir texto alternativo em imagens quando necessario.
+3. Cite um erro comum de iniciante nesse tema.
+Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
 
-4. Qual erro comum de iniciantes deve ser evitado nesse tipo de conteudo?
-Gabarito: Copiar codigo sem entender e nao testar em etapas pequenas.
+4. Qual verificacao minima deve ser feita antes da entrega?
+Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
 
-5. O que voce deve revisar antes de entregar uma atividade desta unidade?
-Gabarito: Estrutura correta do HTML, legibilidade do conteudo, semantica basica e funcionamento do que foi pedido.
+5. Como aprofundar apos a aula?
+Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

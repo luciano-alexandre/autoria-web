@@ -2,68 +2,103 @@
 
 **Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregável previsto:** Lista 3 entregue
+**Entregavel previsto:** Lista 3 entregue
 
-## Explicação do conteúdo
-Lista de exercícios da Unidade 3 para consolidar lógica, DOM e eventos.
+## Explicacao geral do encontro
+Este encontro trabalha **Lista de exercícios do bloco 3 (JS + DOM)** com JavaScript/DOM para transformar conceito em comportamento visivel.
 
-![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
+
+![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png)
 
 ## Conceitos essenciais
-- Integração de lógica e interface.
-- Organização de código em pequenos blocos.
-- Preparação para projeto final.
+- Integracao de logica e interface em mini-projeto.
+- Estrategia incremental de implementacao.
+- Preparacao tecnica para projeto final.
 
-## Exemplo prático
-Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
+## Explicacao detalhada dos conceitos essenciais
+### 1) Integracao de logica e interface em mini-projeto.
+Mini-projeto integra estrutura, estilo e comportamento em fluxo completo.
 
-```html
-<section>
-  <h2>Revisão do encontro</h2>
-  <p>Registre o que aprendeu e o que precisa revisar.</p>
-</section>
+#### Exemplo aplicado
+```md
+- Objetivo do projeto
+- Funcionalidades minimas
+- Cronograma de entrega
+```
+
+### 2) Estrategia incremental de implementacao.
+Implementacao incremental reduz risco e facilita depuracao.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+### 3) Preparacao tecnica para projeto final.
+Preparacao inclui escopo claro, organizacao e checklist de qualidade.
+
+#### Exemplo aplicado
+```md
+- Objetivo do projeto
+- Funcionalidades minimas
+- Cronograma de entrega
+```
+
+## Exemplo principal da aula
+```js
+const btn = document.querySelector("#acao");
+btn.addEventListener("click", () => console.log("ok"));
+```
+
+## Exemplos adicionais
+```js
+function soma(a, b) { return a + b; }
+console.log(soma(2, 3));
+```
+
+```js
+document.querySelector("form").addEventListener("submit", (e) => e.preventDefault());
 ```
 
 ## Como estudar este encontro sozinho
-1. Leia a explicação e destaque os conceitos-chave.
-2. Digite o exemplo de código manualmente.
-3. Faça pequenas alterações e observe o resultado.
-4. Resolva uma variação do exercício com seu próprio tema.
+1. Leia a explicacao geral e os conceitos com atencao.
+2. Rode os exemplos e altere valores/propriedades para testar entendimento.
+3. Reproduza sem copiar e compare com seu resultado.
+4. Resolva uma variacao do tema no seu contexto.
 
-## Dificuldades comuns de iniciantes
-- Tentar avançar sem revisar a base.
-- Copiar código sem compreender a lógica.
-- Não testar mudanças em etapas curtas.
+## Erros comuns de iniciantes
+- Avancar sem consolidar a base do encontro.
+- Copiar codigo sem compreender cada linha.
+- Nao validar comportamento no navegador a cada alteracao.
 
 ## Materiais para aprofundamento
 - [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [MDN - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
 - [javascript.info](https://javascript.info/)
+- [Eloquent JavaScript](https://eloquentjavascript.net/)
 
-## Checklist de compreensão
-- [ ] Entendi o conceito principal da aula.
-- [ ] Consegui executar e adaptar o exemplo.
+## Checklist de compreensao
+- [ ] Entendi os tres conceitos essenciais com minhas palavras.
+- [ ] Executei os exemplos e fiz variacao propria.
+- [ ] Revisei erros comuns e corrigi pontos de duvida.
 - [ ] Entreguei a atividade prevista no cronograma.
-- [ ] Sei quais pontos ainda preciso revisar.
-
-
-
 
 ## Resumo final
-Neste encontro, voce estudou **Lista de exercícios do bloco 3 (JS + DOM)** dentro da introducao a JavaScript e DOM. O foco foi transformar paginas estaticas em interfaces interativas por meio de logica, eventos e manipulacao de elementos.
+Neste encontro, voce estudou **Lista de exercícios do bloco 3 (JS + DOM)** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual papel do JavaScript no contexto do tema "Lista de exercícios do bloco 3 (JS + DOM)"?
-Gabarito: Controlar comportamentos da pagina, processar regras e responder a interacoes do usuario.
+1. Qual problema tecnico "Lista de exercícios do bloco 3 (JS + DOM)" ajuda a resolver?
+Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
-2. O que e o DOM de forma simples?
-Gabarito: E a representacao em arvore da pagina HTML, que pode ser lida e alterada com JavaScript.
+2. Como validar se voce realmente entendeu o conceito?
+Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
-3. Para que serve `addEventListener`?
-Gabarito: Para executar uma acao quando um evento ocorrer (ex.: clique, envio de formulario, digitacao).
+3. Cite um erro comum de iniciante nesse tema.
+Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
 
-4. Qual pratica ajuda a evitar bugs em JavaScript iniciante?
-Gabarito: Testar cada pequena mudanca no navegador e usar o console para depurar.
+4. Qual verificacao minima deve ser feita antes da entrega?
+Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
 
-5. O que revisar antes de entregar atividades com JS/DOM?
-Gabarito: Selecao correta de elementos, logica funcionando, eventos conectados e feedback claro ao usuario.
+5. Como aprofundar apos a aula?
+Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

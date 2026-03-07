@@ -2,68 +2,103 @@
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregável previsto:** Lista 1 entregue
+**Entregavel previsto:** Lista 1 entregue
 
-## Explicação do conteúdo
-Encontro de consolidação da Unidade 1. Esta página organiza revisão de HTML para fixação antes da prova prática.
+## Explicacao geral do encontro
+Este encontro trabalha **Lista de exercícios do bloco 1 (resolução orientada)** com foco em fundamentos de Web/HTML e autonomia de estudo.
 
-![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+
+![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg)
 
 ## Conceitos essenciais
-- Revisão de estrutura, semântica e formulários.
-- Correção de erros comuns em HTML.
-- Checklist de entrega da unidade.
+- Revisao dos fundamentos de HTML da unidade.
+- Identificacao de erros comuns antes da entrega.
+- Estrategia de resolucao para exercicios e prova pratica.
 
-## Exemplo prático
-Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
+## Explicacao detalhada dos conceitos essenciais
+### 1) Revisao dos fundamentos de HTML da unidade.
+Conceito aplicado em definicao + exemplo + variacao propria.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+### 2) Identificacao de erros comuns antes da entrega.
+Conceito aplicado em definicao + exemplo + variacao propria.
+
+#### Exemplo aplicado
+```html
+<form>
+  <label for="email">E-mail</label>
+  <input id="email" type="email" required />
+</form>
+```
+
+### 3) Estrategia de resolucao para exercicios e prova pratica.
+Conceito aplicado em definicao + exemplo + variacao propria.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+## Exemplo principal da aula
+```html
+<main>
+  <h1>Pagina de estudo</h1>
+  <p>Conteudo principal da aula.</p>
+</main>
+```
+
+## Exemplos adicionais
+```html
+<nav><a href="#inicio">Inicio</a><a href="#sobre">Sobre</a></nav>
+```
 
 ```html
-<section>
-  <h2>Revisão do encontro</h2>
-  <p>Registre o que aprendeu e o que precisa revisar.</p>
-</section>
+<form><input required placeholder="Nome" /><button>Enviar</button></form>
 ```
 
 ## Como estudar este encontro sozinho
-1. Leia a explicação e destaque os conceitos-chave.
-2. Digite o exemplo de código manualmente.
-3. Faça pequenas alterações e observe o resultado.
-4. Resolva uma variação do exercício com seu próprio tema.
+1. Leia a explicacao geral e os conceitos com atencao.
+2. Rode os exemplos e altere valores/propriedades para testar entendimento.
+3. Reproduza sem copiar e compare com seu resultado.
+4. Resolva uma variacao do tema no seu contexto.
 
-## Dificuldades comuns de iniciantes
-- Tentar avançar sem revisar a base.
-- Copiar código sem compreender a lógica.
-- Não testar mudanças em etapas curtas.
+## Erros comuns de iniciantes
+- Avancar sem consolidar a base do encontro.
+- Copiar codigo sem compreender cada linha.
+- Nao validar comportamento no navegador a cada alteracao.
 
 ## Materiais para aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [W3C - HTML](https://html.spec.whatwg.org/)
-- [W3C - Introdução à acessibilidade](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [W3C - HTML Living Standard](https://html.spec.whatwg.org/)
+- [W3C - Acessibilidade na Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [freeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
-## Checklist de compreensão
-- [ ] Entendi o conceito principal da aula.
-- [ ] Consegui executar e adaptar o exemplo.
+## Checklist de compreensao
+- [ ] Entendi os tres conceitos essenciais com minhas palavras.
+- [ ] Executei os exemplos e fiz variacao propria.
+- [ ] Revisei erros comuns e corrigi pontos de duvida.
 - [ ] Entreguei a atividade prevista no cronograma.
-- [ ] Sei quais pontos ainda preciso revisar.
-
-
-
 
 ## Resumo final
-Neste encontro, voce estudou **Lista de exercícios do bloco 1 (resolução orientada)** dentro dos fundamentos de HTML e estrutura da Web. O objetivo principal foi construir base conceitual e pratica para leitura, escrita e organizacao de paginas com clareza.
+Neste encontro, voce estudou **Lista de exercícios do bloco 1 (resolução orientada)** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual e a ideia central do tema "Lista de exercícios do bloco 1 (resolução orientada)" nesta unidade?
-Gabarito: Compreender a base de estruturacao de conteudo na Web e aplicar esse conhecimento na construcao de paginas em HTML.
+1. Qual problema tecnico "Lista de exercícios do bloco 1 (resolução orientada)" ajuda a resolver?
+Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
-2. Por que separar estrutura (HTML) de estilo (CSS) e comportamento (JavaScript) e importante?
-Gabarito: Porque facilita manutencao, organizacao do codigo, trabalho em equipe e evolucao do projeto.
+2. Como validar se voce realmente entendeu o conceito?
+Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
-3. Cite uma boa pratica de acessibilidade relacionada a HTML.
-Gabarito: Usar semantica adequada e incluir texto alternativo em imagens quando necessario.
+3. Cite um erro comum de iniciante nesse tema.
+Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
 
-4. Qual erro comum de iniciantes deve ser evitado nesse tipo de conteudo?
-Gabarito: Copiar codigo sem entender e nao testar em etapas pequenas.
+4. Qual verificacao minima deve ser feita antes da entrega?
+Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
 
-5. O que voce deve revisar antes de entregar uma atividade desta unidade?
-Gabarito: Estrutura correta do HTML, legibilidade do conteudo, semantica basica e funcionamento do que foi pedido.
+5. Como aprofundar apos a aula?
+Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

@@ -2,68 +2,100 @@
 
 **Unidade:** Unidade 2  
 **Carga prevista:** 1,5h  
-**Entregável previsto:** Mini projeto (versão beta)
+**Entregavel previsto:** Mini projeto (versão beta)
 
-## Explicação do conteúdo
-Início do mini projeto CSS: integrar estilos, layout e responsividade em um caso mais completo.
+## Explicacao geral do encontro
+Este encontro trabalha **Desenvolvimento do mini projeto CSS** na camada visual, conectando conceitos de CSS com layout real.
 
-![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+
+![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/7/70/CSS3_badge.svg)
 
 ## Conceitos essenciais
-- Consolidação de CSS e responsividade.
-- Decisão técnica por contexto.
-- Revisão com critérios de qualidade.
+- Consolidacao tecnica de CSS da unidade.
+- Criterios de qualidade visual e responsiva.
+- Revisao orientada por problemas reais.
 
-## Exemplo prático
-Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
+## Explicacao detalhada dos conceitos essenciais
+### 1) Consolidacao tecnica de CSS da unidade.
+Consolidacao revisa varias tecnicas em conjunto, aproximando do uso real.
 
-```html
-<section>
-  <h2>Revisão do encontro</h2>
-  <p>Registre o que aprendeu e o que precisa revisar.</p>
-</section>
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+### 2) Criterios de qualidade visual e responsiva.
+Qualidade visual inclui consistencia, legibilidade, contraste e ausencia de quebras.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+### 3) Revisao orientada por problemas reais.
+Resolver problemas reais fortalece transferencia de conhecimento.
+
+#### Exemplo aplicado
+```text
+Aplique o conceito no seu projeto e valide no navegador.
+```
+
+## Exemplo principal da aula
+```css
+.container {
+  display: grid;
+  gap: 1rem;
+}
+```
+
+## Exemplos adicionais
+```css
+.menu { display: flex; gap: 1rem; }
+```
+
+```css
+@media (min-width: 900px) { .cards { grid-template-columns: repeat(3, 1fr); } }
 ```
 
 ## Como estudar este encontro sozinho
-1. Leia a explicação e destaque os conceitos-chave.
-2. Digite o exemplo de código manualmente.
-3. Faça pequenas alterações e observe o resultado.
-4. Resolva uma variação do exercício com seu próprio tema.
+1. Leia a explicacao geral e os conceitos com atencao.
+2. Rode os exemplos e altere valores/propriedades para testar entendimento.
+3. Reproduza sem copiar e compare com seu resultado.
+4. Resolva uma variacao do tema no seu contexto.
 
-## Dificuldades comuns de iniciantes
-- Tentar avançar sem revisar a base.
-- Copiar código sem compreender a lógica.
-- Não testar mudanças em etapas curtas.
+## Erros comuns de iniciantes
+- Avancar sem consolidar a base do encontro.
+- Copiar codigo sem compreender cada linha.
+- Nao validar comportamento no navegador a cada alteracao.
 
 ## Materiais para aprofundamento
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [CSS Tricks - Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Tricks - Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [web.dev - Learn CSS](https://web.dev/learn/css)
 
-## Checklist de compreensão
-- [ ] Entendi o conceito principal da aula.
-- [ ] Consegui executar e adaptar o exemplo.
+## Checklist de compreensao
+- [ ] Entendi os tres conceitos essenciais com minhas palavras.
+- [ ] Executei os exemplos e fiz variacao propria.
+- [ ] Revisei erros comuns e corrigi pontos de duvida.
 - [ ] Entreguei a atividade prevista no cronograma.
-- [ ] Sei quais pontos ainda preciso revisar.
-
-
-
 
 ## Resumo final
-Neste encontro, voce estudou **Desenvolvimento do mini projeto CSS** com foco em CSS, layout e responsividade. A meta foi tornar a interface visualmente consistente, legivel e adaptavel a diferentes telas.
+Neste encontro, voce estudou **Desenvolvimento do mini projeto CSS** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual e o objetivo principal do tema "Desenvolvimento do mini projeto CSS" na Unidade 2?
-Gabarito: Aplicar CSS para melhorar apresentacao, organizacao visual e experiencia de uso da pagina.
+1. Qual problema tecnico "Desenvolvimento do mini projeto CSS" ajuda a resolver?
+Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
-2. O que a cascata do CSS influencia na pratica?
-Gabarito: Ela define qual regra sera aplicada quando houver conflito de estilos.
+2. Como validar se voce realmente entendeu o conceito?
+Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
-3. Quando usar Flexbox e quando usar Grid, de forma geral?
-Gabarito: Flexbox para alinhamento em uma dimensao (linha/coluna) e Grid para layout em duas dimensoes (linhas e colunas).
+3. Cite um erro comum de iniciante nesse tema.
+Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
 
-4. O que significa abordagem mobile-first?
-Gabarito: Desenvolver primeiro para telas menores e depois expandir com media queries para telas maiores.
+4. Qual verificacao minima deve ser feita antes da entrega?
+Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
 
-5. Qual checklist minimo para validar uma pagina estilizada?
-Gabarito: Contraste e legibilidade, alinhamento/espacamento coerentes, responsividade basica e ausencia de quebra de layout.
+5. Como aprofundar apos a aula?
+Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.
