@@ -211,7 +211,7 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 
 ## 8) Erros Comuns de Iniciantes
 - confundir HTML com linguagem de programação;
-- tentar resolver layout complexo sem dominar box model e fluxo normal;
+- tentar criar layouts complexos sem dominar conceitos básicos;
 - usar JavaScript antes de consolidar semântica e estrutura da página;
 - copiar código sem testar em pequenas etapas.
 
