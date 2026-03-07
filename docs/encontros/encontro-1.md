@@ -219,6 +219,8 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Curso em Vídeo - História da Internet e da Web (parte 1)](https://www.youtube.com/watch?v=B4FU3NFRTDw&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=10)
+- [Curso em Vídeo - História da Internet e da Web (parte 2)](https://www.youtube.com/watch?v=iSqf2iPqJNM&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=11)
 
 ## Checklist de Compreensão
 - [ ] Consigo definir HTML, CSS e JavaScript com precisão.
