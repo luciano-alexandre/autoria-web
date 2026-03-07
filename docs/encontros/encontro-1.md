@@ -62,7 +62,7 @@ O HTML organiza o conteúdo em elementos com significado: títulos, parágrafos,
 </main>
 ```
 **Como fica após executar (estrutura HTML):**
-![Resultado do exemplo HTML](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-exec-html.svg)
+![Resultado do exemplo HTML](./imagens/encontro-1-exec-html.svg)
 
 Aplicação: estrutura páginas institucionais, portfólios, e-commerces, blogs, sistemas acadêmicos e qualquer interface web.
 
@@ -91,7 +91,7 @@ button {
 }
 ```
 **Como fica após executar (HTML + CSS):**
-![Resultado do exemplo CSS](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-exec-css.svg)
+![Resultado do exemplo CSS](./imagens/encontro-1-exec-css.svg)
 
 Aplicação: identidade visual, design system, layout adaptável para celular/tablet/desktop, acessibilidade visual (contraste, legibilidade).
 
@@ -110,7 +110,7 @@ form.addEventListener("submit", (e) => {
 });
 ```
 **Como fica após executar (HTML + CSS + JavaScript):**
-![Resultado do exemplo JavaScript](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-exec-js.svg)
+![Resultado do exemplo JavaScript](./imagens/encontro-1-exec-js.svg)
 
 Aplicação: validação de formulários, menus dinâmicos, filtros, dashboards, comunicação com APIs e aplicações web completas.
 
@@ -176,7 +176,7 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 ## 7) Exemplo de Resultado após Execução
 A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no navegador após execução:
 
-![Simulação de renderização da página de cadastro](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-resultado-renderizacao.svg)
+![Simulação de renderização da página de cadastro](./imagens/encontro-1-resultado-renderizacao.svg)
 
 ## 8) Exemplo Integrado (HTML + CSS + JavaScript)
 ```html
