@@ -232,18 +232,18 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 ## Resumo Final
 Neste encontro, você construiu uma visão histórica e técnica da Web, entendendo a função de cada linguagem e sua importância para a evolução da Computação. Com essa base, as próximas aulas passam a fazer mais sentido porque cada novo conteúdo será conectado a uma arquitetura clara: **estrutura (HTML), apresentação (CSS) e comportamento (JavaScript)**.
 
-## Questões de Fixação (com gabarito)
+## Questões de Fixação 
 1. Qual foi a motivação inicial para o surgimento do HTML?
-Gabarito: Compartilhar documentos interligados por hipertexto na Web, inicialmente em contexto científico.
+<!-- Gabarito: Compartilhar documentos interligados por hipertexto na Web, inicialmente em contexto científico. -->
 
 2. Por que o CSS foi criado?
-Gabarito: Para separar conteúdo de apresentação, reduzindo repetição e melhorando manutenção visual das páginas.
+<!-- Gabarito: Para separar conteúdo de apresentação, reduzindo repetição e melhorando manutenção visual das páginas. -->
 
 3. Qual problema o JavaScript resolveu na Web dos anos 1990?
-Gabarito: A ausência de interatividade dinâmica no lado do cliente.
+<!-- Gabarito: A ausência de interatividade dinâmica no lado do cliente. -->
 
 4. Cite um marco histórico de cada linguagem.
-Gabarito: HTML (primeiro site público em 1991), CSS (CSS1 em 1996), JavaScript (padronização ECMAScript em 1997).
+<!-- Gabarito: HTML (primeiro site público em 1991), CSS (CSS1 em 1996), JavaScript (padronização ECMAScript em 1997). -->
 
 5. Em uma frase, explique como as três linguagens trabalham juntas.
-Gabarito: HTML organiza o conteúdo, CSS define a aparência e JavaScript controla o comportamento da interface.
+<!-- Gabarito: HTML organiza o conteúdo, CSS define a aparência e JavaScript controla o comportamento da interface. -->
