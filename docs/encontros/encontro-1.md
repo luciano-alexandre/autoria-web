@@ -173,10 +173,7 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 - menus e efeitos de navegação;
 - atualização de partes da interface sem recarregar toda a página (evoluindo para AJAX nos anos 2000).
 
-## 7) Exemplo de Resultado após Execução
-A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no navegador após execução:
-
-## 8) Exemplo Integrado (HTML + CSS + JavaScript)
+## 7) Exemplo Integrado (HTML + CSS + JavaScript)
 ```html
 <!doctype html>
 <html lang="pt-BR">
@@ -212,19 +209,16 @@ A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no n
 **Resultado esperado da execução do código do tópico 8:**
 ![Resultado do exemplo integrado](./imagens/encontro-1-exec-integrado.svg)
 
-## 9) Erros Comuns de Iniciantes
+## 8) Erros Comuns de Iniciantes
 - confundir HTML com linguagem de programação;
 - tentar resolver layout complexo sem dominar box model e fluxo normal;
 - usar JavaScript antes de consolidar semântica e estrutura da página;
 - copiar código sem testar em pequenas etapas.
 
-## 10) Materiais para Aprofundamento
+## 9) Materiais para Aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [W3C - HTML Living Standard](https://html.spec.whatwg.org/)
-- [W3C - Acessibilidade na Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
-- [ECMAScript Language Specification](https://tc39.es/ecma262/)
 
 ## Checklist de Compreensão
 - [ ] Consigo definir HTML, CSS e JavaScript com precisão.
