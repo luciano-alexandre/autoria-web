@@ -20,23 +20,68 @@ Este encontro trabalha **Apresentação da disciplina, combinados e visão geral
 
 ## Explicação 
 ### 1) Papel de HTML, CSS e JavaScript no front-end.
-HTML estrutura conteudo, CSS define apresentacao e JavaScript adiciona comportamento. Separar camadas reduz acoplamento e facilita manutencao.
+No front-end, essas tres linguagens trabalham juntas, mas com responsabilidades diferentes:
 
-#### Exemplo aplicado
+- **HTML (HyperText Markup Language):** define a **estrutura e o significado** do conteudo (titulos, paragrafos, menus, formularios, secoes etc.).
+- **CSS (Cascading Style Sheets):** define a **apresentacao visual** (cores, fontes, espacamento, layout, responsividade).
+- **JavaScript:** define o **comportamento e a interatividade** (cliques, validacoes, atualizacao de conteudo, regras da interface).
+
+Aplicacao pratica: em uma pagina de cadastro, o HTML cria o formulario, o CSS organiza e estiliza os campos, e o JavaScript valida os dados antes do envio.
+
+#### Exemplo de HTML (estrutura)
+```html
+<main>
+  <h1>Cadastro de Aluno</h1>
+  <form id="form-cadastro">
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" required />
+
+    <label for="email">E-mail</label>
+    <input id="email" type="email" required />
+
+    <button type="submit">Enviar</button>
+  </form>
+  <p id="mensagem"></p>
+</main>
+```
+
+#### Exemplo de CSS (apresentacao)
+```css
+main {
+  max-width: 480px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+button {
+  background: #0f4c81;
+  color: #fff;
+  border: 0;
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+}
+```
+
+#### Exemplo de JavaScript (comportamento)
 ```js
-const idade = 16;
-console.log(idade >= 16 ? "ok" : "pendente");
+const form = document.querySelector("#form-cadastro");
+const msg = document.querySelector("#mensagem");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const nome = document.querySelector("#nome").value.trim();
+  msg.textContent = `Cadastro de ${nome} enviado com sucesso.`;
+});
 ```
 
-### 2) Estrutura da disciplina e fluxo de aprendizagem.
-A aprendizagem e cumulativa: base de HTML, depois CSS, depois JS/DOM e por fim integracao em projeto.
+Quando voce separa bem estrutura, estilo e comportamento, o projeto fica mais facil de manter, corrigir e evoluir.
 
-#### Exemplo aplicado
-```text
-Aplique o conceito no seu projeto e valide no navegador.
-```
-
-### 3) Organizacao pessoal para acompanhar atividades.
+### 2) Organizacao pessoal para acompanhar atividades.
 Estudo curto e frequente tende a funcionar melhor para iniciantes do que longas maratonas.
 
 #### Exemplo aplicado
