@@ -1,6 +1,6 @@
 # Referências e Recursos
 
-## Documentação Oficial (prioridade)
+## Documentação Oficial
 - MDN Web Docs (pt-BR): https://developer.mozilla.org/pt-BR/
 - HTML (MDN): https://developer.mozilla.org/pt-BR/docs/Web/HTML
 - CSS (MDN): https://developer.mozilla.org/pt-BR/docs/Web/CSS
