@@ -1,4 +1,4 @@
-# Lista de Exercícios (Progressiva)
+# Lista de Exercícios
 
 ## Bloco 1 - HTML
 1. Criar uma página com estrutura semântica completa (`header`, `nav`, `main`, `section`, `footer`).

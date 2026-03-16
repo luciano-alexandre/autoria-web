@@ -11,6 +11,6 @@
 - [Visão Geral da Disciplina](docs/00-visao-geral-disciplina.md)
 - [Cronograma de 60h](docs/01-cronograma-60h.md)
 - [Atividades e Exercícios](docs/atividades/01-lista-exercicios.md)
-- [Projetos Integradores](docs/atividades/02-projetos-integradores.md)
+- [Projetos](docs/atividades/02-projetos.md)
 - [Avaliação e Rubricas](docs/avaliacao/01-avaliacao-rubricas.md)
 - [Referências e Recursos](docs/referencias/01-links-e-recursos.md)
