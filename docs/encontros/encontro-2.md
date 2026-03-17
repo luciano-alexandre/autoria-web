@@ -36,7 +36,7 @@ Em outras palavras, a Web é um dos serviços que usam a Internet.
 - Streaming.
 - SSH e acesso remoto.
 
-### Analogia pedagógica
+### Analogia
 - **Internet:** sistema de estradas, ruas e infraestrutura.
 - **Web:** um tipo específico de serviço que circula por essas estradas.
 
