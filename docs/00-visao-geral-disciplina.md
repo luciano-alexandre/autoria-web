@@ -5,7 +5,7 @@
 - Carga horária total: 60h
 - Organização da carga horária: 40 aulas de 1.5h (4 unidades de 15h)
 - Público: Curso Técnico Integrado em Informática
-- Google Sala da Aula: jfxhike5
+- Google Sala da Aula: **jfxhike5**
 
 ## Ementa
 Estudo dos conceitos introdutórios de HTML e CSS. Introdução ao JavaScript. Uso de JavaScript para manipulação de DOM. Abordagem de conceitos sobre árvore DOM. Criação de páginas responsivas.
