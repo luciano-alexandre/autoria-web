@@ -27,13 +27,6 @@
 ### Em português
 - Curso em Vídeo (canal): https://www.youtube.com/@CursoemVideo
 - Curso em Vídeo (site): https://www.cursoemvideo.com/
-- Programação Web (busca YouTube para curadoria docente): https://www.youtube.com/results?search_query=html+css+javascript+curso+completo
-
-### Em inglês (apoio complementar)
-- freeCodeCamp.org: https://www.youtube.com/@freecodecamp
-- Traversy Media: https://www.youtube.com/@TraversyMedia
-- Kevin Powell (CSS): https://www.youtube.com/@KevinPowell
-- The Net Ninja: https://www.youtube.com/@NetNinja
 
 ## Trilhas Gratuitas
 - freeCodeCamp - Responsive Web Design: https://www.freecodecamp.org/learn/2022/responsive-web-design/
