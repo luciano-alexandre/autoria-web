@@ -232,15 +232,13 @@ Ele define:
 </form>
 ```
 
-## 14) Erros Comuns de Iniciantes
+## 9) Erros Comuns de Iniciantes
 - tratar Internet e Web como sinônimos absolutos;
 - pensar que URL é apenas "o nome do site";
 - acreditar que DNS e HTTP fazem a mesma coisa;
 - confundir domínio com protocolo;
-- supor que `404` significa "site caiu";
-- não perceber que uma página costuma depender de várias requisições, não apenas uma.
 
-## 15) Materiais para Aprofundamento
+## 10) Materiais para Aprofundamento
 - [MDN - Como a Web funciona](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works)
 - [MDN - URLs: conceitos básicos](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL)
 - [MDN - Uma visão geral de HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
