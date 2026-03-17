@@ -34,7 +34,6 @@ Em outras palavras, a Web é um dos serviços que usam a Internet.
 - Transferência de arquivos.
 - Jogos online.
 - Streaming.
-- SSH e acesso remoto.
 
 ### Analogia
 - **Internet:** sistema de estradas, ruas e infraestrutura.
@@ -53,7 +52,6 @@ Exemplos de clientes:
 - Firefox.
 - Edge.
 - Safari.
-- Aplicações móveis que consomem APIs.
 
 ### Servidor
 O servidor é o sistema que recebe a solicitação, processa o pedido e devolve uma resposta.
@@ -63,8 +61,6 @@ Exemplos de resposta do servidor:
 - um arquivo CSS;
 - uma imagem;
 - um arquivo JavaScript;
-- dados em JSON;
-- uma mensagem de erro.
 
 ### Ciclo básico de comunicação
 1. O cliente solicita um recurso.
@@ -90,14 +86,14 @@ Este é um dos fluxos conceituais mais importantes da disciplina.
 Suponha que o usuário digite:
 
 ```text
-https://developer.mozilla.org/pt-BR/docs/Web/HTTP
+https://portal.ifrn.edu.br/campus/curraisnovos/
 ```
 
 O processo, em alto nível, é:
 
 1. O navegador interpreta a URL.
 2. Ele identifica o protocolo: `https`.
-3. Ele identifica o domínio: `developer.mozilla.org`.
+3. Ele identifica o domínio: `portal.ifrn.edu.br`.
 4. Ele consulta o DNS para descobrir o endereço IP associado ao domínio.
 5. Depois de descobrir o IP, ele estabelece conexão com o servidor.
 6. Envia uma requisição HTTP.
@@ -112,15 +108,13 @@ URL significa **Uniform Resource Locator**. É o endereço usado para localizar 
 
 ### Exemplo de URL
 ```text
-https://www.exemplo.com.br/cursos/html/introducao.html?turma=tsi&modo=noturno#topo
+https://portal.ifrn.edu.br/campus/curraisnovos/
 ```
 
 ### Partes da URL
 - **Protocolo:** `https`
-- **Domínio (host):** `www.exemplo.com.br`
-- **Caminho (path):** `/cursos/html/introducao.html`
-- **Query string:** `?turma=tsi&modo=noturno`
-- **Fragmento:** `#topo`
+- **Domínio (host):** `portal.ifrn.edu.br`
+- **Caminho (path):** `/campus/curraisnovos`
 
 ### Explicando cada parte
 
@@ -139,35 +133,15 @@ Hoje, `https` é o padrão esperado na Web moderna porque adiciona criptografia 
 Exemplos:
 - `google.com`
 - `ifrn.edu.br`
-- `developer.mozilla.org`
 
 #### Caminho
 Indica qual recurso está sendo solicitado dentro do servidor.
 
 Exemplos:
 - `/`
-- `/blog`
-- `/docs/Web/HTML`
+- `/campus`
+- `/campus/curraisnovos`
 
-#### Query string
-Transporta parâmetros adicionais.
-
-Exemplo:
-```text
-https://site.com/busca?q=html&pagina=2
-```
-
-Nesse caso:
-- `q=html`
-- `pagina=2`
-
-#### Fragmento
-Aponta para uma seção interna do documento. Em geral, ele é processado pelo navegador e não costuma ser enviado ao servidor na requisição HTTP tradicional.
-
-Exemplo:
-```text
-https://site.com/aula.html#referencias
-```
 
 ## 5) DNS: traduzindo nomes em endereços IP
 Computadores se comunicam de forma mais direta por meio de endereços IP. Pessoas, por outro lado, preferem nomes fáceis de memorizar. O DNS existe para fazer essa ponte.
