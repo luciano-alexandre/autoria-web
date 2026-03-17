@@ -3,7 +3,7 @@
 ## Identificação do Curso
 - Turma: 1º Ano 
 - Curso: Técnico Integrado em Informática
-- Instituição: IFRN - Campus Curraus Novos
+- Instituição: IFRN - Campus Currais Novos
 - Professor: Luciano Alexandre de Farias Silva
 
 ## Estrutura
