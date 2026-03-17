@@ -248,10 +248,9 @@ Ele define:
 ## Checklist de Compreensão
 - [ ] Consigo diferenciar Internet de Web com precisão.
 - [ ] Consigo explicar o modelo cliente-servidor.
-- [ ] Consigo identificar protocolo, domínio, caminho, query string e fragmento em uma URL.
+- [ ] Consigo identificar protocolo, domínio e caminho.
 - [ ] Consigo explicar a função do DNS.
 - [ ] Consigo descrever o que o HTTP faz na comunicação web.
-- [ ] Consigo interpretar pelo menos os códigos `200`, `404` e `500`.
 - [ ] Consigo narrar o fluxo completo entre digitar uma URL e visualizar a página.
 
 ## Resumo Final
