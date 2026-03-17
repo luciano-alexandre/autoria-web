@@ -9,7 +9,7 @@ Avaliação do bloco: listas de exercícios + prova prática .
 | Encontro | Carga | Tema Central | Entrega | Conteúdo da Aula |
 |---|---:|---|---|---|
 | 1 | 1,5h | Apresentação da disciplina, combinados e visão geral da Web |  | [Encontro 1](./encontros/encontro-1.md) |
-| 2 | 1,5h | Internet x Web, cliente-servidor, URL e HTTP (visão inicial) | Mapa conceitual curto | [Encontro 2](./encontros/encontro-2.md) |
+| 2 | 1,5h | Internet x Web, cliente-servidor, URL e HTTP (visão inicial) |  | [Encontro 2](./encontros/encontro-2.md) |
 | 3 | 1,5h | Ambiente de desenvolvimento (editor, navegador, DevTools) | Ambiente configurado | [Encontro 3](./encontros/encontro-3.md) |
 | 4 | 1,5h | HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`) | Primeiro `index.html` | [Encontro 4](./encontros/encontro-4.md) |
 | 5 | 1,5h | Elementos textuais, links e listas | Página textual estruturada | [Encontro 5](./encontros/encontro-5.md) |
