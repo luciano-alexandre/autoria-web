@@ -195,50 +195,13 @@ Ele define:
 - quais códigos indicam sucesso ou erro;
 - quais metadados acompanham a comunicação.
 
-
-## 7) Exemplo prático com HTML e link
-```html
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Links e Navegação</title>
-  </head>
-  <body>
-    <main>
-      <h1>Explorando URLs</h1>
-      <p>
-        Acesse a
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP">
-          documentação de HTTP na MDN
-        </a>.
-      </p>
-    </main>
-  </body>
-</html>
-```
-
-## 8) Exemplo prático com formulário 
-```html
-<form action="/cadastro" method="post">
-  <label for="nome">Nome</label>
-  <input id="nome" name="nome" type="text" required />
-
-  <label for="email">E-mail</label>
-  <input id="email" name="email" type="email" required />
-
-  <button type="submit">Enviar</button>
-</form>
-```
-
-## 9) Erros Comuns de Iniciantes
+## 7) Erros Comuns de Iniciantes
 - tratar Internet e Web como sinônimos absolutos;
 - pensar que URL é apenas "o nome do site";
 - acreditar que DNS e HTTP fazem a mesma coisa;
 - confundir domínio com protocolo;
 
-## 10) Materiais para Aprofundamento
+## 8) Materiais para Aprofundamento
 - [MDN - Como a Web funciona](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works)
 - [MDN - URLs: conceitos básicos](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL)
 - [MDN - Uma visão geral de HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
@@ -260,16 +223,11 @@ Sem essa visão integrada, HTML aparece apenas como marcação. Com ela, o estud
 
 ## Questões de Fixação
 1. Explique, com suas palavras, a diferença entre Internet e Web.
-<!-- Gabarito: A Internet é a infraestrutura global de redes; a Web é um serviço que funciona sobre essa infraestrutura usando padrões como URL, HTTP e HTML. -->
 
 2. Qual é o papel do cliente e qual é o papel do servidor na comunicação web?
-<!-- Gabarito: O cliente solicita recursos; o servidor recebe a solicitação, processa o pedido e devolve uma resposta. -->
 
 3. Em uma URL, o que representam protocolo, domínio e caminho?
-<!-- Gabarito: Protocolo define a forma de comunicação, domínio identifica o host/servidor pelo nome e caminho indica o recurso solicitado dentro do servidor. -->
 
 4. Para que serve o DNS?
-<!-- Gabarito: Para traduzir nomes de domínio legíveis por humanos em endereços IP usados na comunicação entre máquinas. -->
 
 5. O que significa receber um status `404 Not Found`?
-<!-- Gabarito: Significa que o recurso solicitado não foi encontrado no servidor para aquele caminho/endereço. -->
