@@ -2,7 +2,7 @@
 
 Referência: 40 encontros de 1,5h cada, organizados em 4 blocos de 10 encontros.
 
-## Unidade 1 (Encontros 1 a 10)
+## 1º Bimestre (Encontros 1 a 10)
 Foco: Fundamentos da Web e HTML5 semântico.
 Avaliação do bloco: listas de exercícios + prova prática .
 
@@ -19,7 +19,7 @@ Avaliação do bloco: listas de exercícios + prova prática .
 | 9 | 1,5h | Lista de exercícios do bloco 1 (resolução orientada) | Lista 1 entregue | [Encontro 9](./encontros/encontro-9.md) |
 | 10 | 1,5h | Prova prática do bloco 1 (dia reservado) | Prova prática 1 | [Encontro 10](./encontros/encontro-10.md) |
 
-## Unidade 2 (Encontros 11 a 20)
+## 2º Bimestre (Encontros 11 a 20)
 Foco: CSS, layout e responsividade.
 Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias reservados).
 
@@ -36,7 +36,7 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 | 19 | 1,5h | Apresentação curta do mini projeto (dia reservado) | Mini projeto apresentado | [Encontro 19](./encontros/encontro-19.md) |
 | 20 | 1,5h | Prova do bloco 2 (dia reservado) | Prova 2 | [Encontro 20](./encontros/encontro-20.md) |
 
-## Unidade 3 (Encontros 21 a 30)
+## 3º Bimestre (Encontros 21 a 30)
 Foco: JavaScript introdutório e manipulação de DOM.
 Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto final).
 
@@ -53,7 +53,7 @@ Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto
 | 29 | 1,5h | Mini projeto JS/DOM (desenvolvimento) | Mini projeto funcional | [Encontro 29](./encontros/encontro-29.md) |
 | 30 | 1,5h | Apresentação do mini projeto e definição do escopo final | Mini projeto apresentado + proposta final | [Encontro 30](./encontros/encontro-30.md) |
 
-## Unidade 4 (Encontros 31 a 40)
+## 4º Bimestre (Encontros 31 a 40)
 Foco: Projeto final integrador (HTML + CSS + JS + DOM).
 Avaliação do bloco: projeto final (única avaliação), com dias reservados para apresentação.
 
