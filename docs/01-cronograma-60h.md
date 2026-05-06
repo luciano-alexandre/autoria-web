@@ -15,7 +15,7 @@ Avaliação do bloco: listas de exercícios + prova prática .
 | 5 | 1,5h | Elementos textuais, links e listas | Página textual estruturada | [Encontro 5](./encontros/encontro-5.md) |
 | 6 | 1,5h | Atividade Avaliativa 01 (HTML5 - Unidade 1) | Atividade avaliativa entregue | [Atividade Avaliativa 01 (PDF)](./atividades/Atividade%20Avaliativa%20-%20Autoria%20Web%20(1).pdf) |
 | 7 | 1,5h | Correção passo a passo da Atividade Avaliativa 01 | Versão corrigida do `index.html` | [Encontro 7](./encontros/encontro-7.md) |
-| 8 | 1,5h | Formulários e validações nativas | Formulário funcional | [Encontro 8](./encontros/encontro-8.md) |
+| 8 | 1,5h | Semântica HTML5 e Landmarks | - | [Encontro 8](./encontros/encontro-8.md) |
 | 9 | 1,5h | Lista de exercícios do bloco 1 (resolução orientada) | Lista 1 entregue | [Encontro 9](./encontros/encontro-9.md) |
 | 10 | 1,5h | Prova prática do bloco 1 (dia reservado) | Prova prática 1 | [Encontro 10](./encontros/encontro-10.md) |
 

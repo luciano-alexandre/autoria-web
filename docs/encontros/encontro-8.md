@@ -1,4 +1,4 @@
-# Encontro 6 - Semântica HTML5 e Landmarks
+# Encontro 8 - Semântica HTML5 e Landmarks
 
 **Unidade:** Unidade 1  
 
