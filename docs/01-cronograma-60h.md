@@ -13,8 +13,8 @@ Avaliação do bloco: listas de exercícios + prova prática .
 | 3 | 1,5h | Ambiente de desenvolvimento (editor, navegador, DevTools) | Ambiente configurado | [Encontro 3](./encontros/encontro-3.md) |
 | 4 | 1,5h | HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`) | Primeiro `index.html` | [Encontro 4](./encontros/encontro-4.md) |
 | 5 | 1,5h | Elementos textuais, links e listas | Página textual estruturada | [Encontro 5](./encontros/encontro-5.md) |
-| 6 | 1,5h | Semântica HTML5 (`header`, `nav`, `main`, `section`, `article`, `footer`) | Estrutura semântica inicial | [Encontro 6](./encontros/encontro-6.md) |
-| 7 | 1,5h | Imagens, tabelas e organização de conteúdo | Página com mídia e tabela | [Encontro 7](./encontros/encontro-7.md) |
+| 6 | 1,5h | Atividade Avaliativa 01 (HTML5 - Unidade 1) | Atividade avaliativa entregue | [Atividade Avaliativa 01 (PDF)](./atividades/Atividade%20Avaliativa%20-%20Autoria%20Web%20(1).pdf) |
+| 7 | 1,5h | Correção passo a passo da Atividade Avaliativa 01 | Versão corrigida do `index.html` | [Encontro 7](./encontros/encontro-7.md) |
 | 8 | 1,5h | Formulários e validações nativas | Formulário funcional | [Encontro 8](./encontros/encontro-8.md) |
 | 9 | 1,5h | Lista de exercícios do bloco 1 (resolução orientada) | Lista 1 entregue | [Encontro 9](./encontros/encontro-9.md) |
 | 10 | 1,5h | Prova prática do bloco 1 (dia reservado) | Prova prática 1 | [Encontro 10](./encontros/encontro-10.md) |
@@ -71,7 +71,7 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 | 40 | 1,5h | Apresentações de projetos finais e fechamento (dia reservado) | Apresentação final - turma B | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Marcos de Avaliação
-- Unidade 1: Lista 1 (Encontro 9) + Prova prática 1 (Encontro 10).
+- Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 9) + Prova prática 1 (Encontro 10).
 - Unidade 2: Lista 2 (Encontro 17) + Mini projeto (Encontros 18 e 19) + Prova 2 (Encontro 20).
 - Unidade 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
 - Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
