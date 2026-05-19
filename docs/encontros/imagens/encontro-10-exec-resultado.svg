@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Exemplo visual esperado do Encontro 10</title>
+  <desc id="desc">Wireframe simples de uma página HTML com header, nav, main com seções de conteúdo, mídias, tabela e footer.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .window { fill: #ffffff; stroke: #c9d2dc; stroke-width: 1.5; }
+      .bar { fill: #ffffff; }
+      .box { fill: #ffffff; }
+      .soft { fill: #ffffff; }
+      .text { fill: #1f2f3d; font-family: Arial, Helvetica, sans-serif; font-size: 22px; }
+      .small { fill: #1f2f3d; font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+      .tiny { fill: #2e3d4d; font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+      .link { fill: #0b5fa5; font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-decoration: underline; }
+      .mono { fill: #4b5865; font-family: Consolas, monospace; font-size: 13px; }
+      .table { stroke: none; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="760" />
+
+  <rect class="window" x="80" y="40" width="1040" height="690" rx="10" />
+  <rect class="bar" x="80" y="40" width="1040" height="34" rx="10" />
+  <circle cx="104" cy="57" r="7" fill="#ff6b6b" />
+  <circle cx="126" cy="57" r="7" fill="#ffd166" />
+  <circle cx="148" cy="57" r="7" fill="#4ecb71" />
+  <text class="small" x="560" y="62">index.html - Navegador</text>
+
+  <rect class="box" x="110" y="90" width="980" height="88" rx="6" />
+  <text class="text" x="130" y="124">Página da Disciplina</text>
+  <text class="small" x="130" y="150">Revisão integrada com estrutura semântica e mídias básicas.</text>
+  <text class="tiny" x="1010" y="124">&lt;header&gt;</text>
+
+  <rect class="box" x="110" y="190" width="980" height="48" rx="6" />
+  <text class="link" x="130" y="220">Sobre</text>
+  <text class="small" x="182" y="220">|</text>
+  <text class="link" x="196" y="220">Conteúdos</text>
+  <text class="small" x="287" y="220">|</text>
+  <text class="link" x="301" y="220">Mídias</text>
+  <text class="small" x="364" y="220">|</text>
+  <text class="link" x="378" y="220">Recursos</text>
+  <text class="tiny" x="1030" y="220">&lt;nav&gt;</text>
+
+  <rect class="box" x="110" y="250" width="980" height="392" rx="6" />
+  <text class="tiny" x="1030" y="271">&lt;main&gt;</text>
+
+  <rect class="soft" x="130" y="270" width="940" height="62" rx="5" />
+  <text class="small" x="146" y="294">&lt;section id="sobre"&gt;</text>
+  <text class="small" x="146" y="316">Breve apresentação da página.</text>
+
+  <rect class="soft" x="130" y="340" width="940" height="92" rx="5" />
+  <text class="small" x="146" y="364">&lt;section id="conteudos"&gt;</text>
+  <text class="tiny" x="146" y="384">• HTML5 básico</text>
+  <text class="tiny" x="146" y="401">• Semântica com landmarks</text>
+  <text class="tiny" x="146" y="418">• Mídias e tabelas</text>
+  <text class="tiny" x="420" y="418">&lt;article&gt; resumo curto da revisão</text>
+
+  <rect class="soft" x="130" y="440" width="940" height="96" rx="5" />
+  <text class="small" x="146" y="464">&lt;section id="midias"&gt;</text>
+
+  <rect x="146" y="472" width="210" height="40" rx="4" fill="#ffffff" />
+  <rect x="154" y="478" width="62" height="28" rx="2" fill="#e9edf2" />
+  <circle cx="164" cy="486" r="3" fill="#c2cbd5" />
+  <polygon points="157,506 173,492 185,506" fill="#b4bfca" />
+  <polygon points="174,506 191,490 208,506" fill="#a5b2bf" />
+  <text class="tiny" x="224" y="491">laboratorio-web.jpg</text>
+  <text class="tiny" x="224" y="506">alt: Laboratório em atividade</text>
+  <text class="tiny" x="152" y="521">figcaption: Aula prática no laboratório</text>
+
+  <rect x="376" y="474" width="220" height="34" rx="17" fill="#f4f6f9" />
+  <polygon points="388,486 388,498 398,492" fill="#5f6e7e" />
+  <line x1="410" y1="492" x2="525" y2="492" stroke="#c3ccd7" stroke-width="4" stroke-linecap="round" />
+  <line x1="410" y1="492" x2="462" y2="492" stroke="#8191a2" stroke-width="4" stroke-linecap="round" />
+  <circle cx="463" cy="492" r="4" fill="#6f8091" />
+  <text class="tiny" x="532" y="496">0:21</text>
+  <polygon points="564,486 564,498 570,494 570,490" fill="#6a7b8d" />
+  <line x1="572" y1="488" x2="577" y2="486" stroke="#6a7b8d" stroke-width="1.2" />
+  <line x1="572" y1="491" x2="578" y2="491" stroke="#6a7b8d" stroke-width="1.2" />
+  <line x1="572" y1="494" x2="577" y2="496" stroke="#6a7b8d" stroke-width="1.2" />
+  <text class="tiny" x="376" y="523">&lt;audio controls&gt;</text>
+
+  <rect x="620" y="472" width="240" height="38" rx="3" fill="#222b35" />
+  <polygon points="732,482 732,500 747,491" fill="#d9e2eb" />
+  <rect x="620" y="510" width="240" height="16" fill="#111923" />
+  <polygon points="628,513 628,523 636,518" fill="#d9e2eb" />
+  <line x1="645" y1="518" x2="760" y2="518" stroke="#68798b" stroke-width="3" stroke-linecap="round" />
+  <line x1="645" y1="518" x2="702" y2="518" stroke="#d9e2eb" stroke-width="3" stroke-linecap="round" />
+  <text x="765" y="521" fill="#d9e2eb" font-family="Arial, Helvetica, sans-serif" font-size="10">0:18 / 1:10</text>
+  <polygon points="840,514 840,522 844,520 844,516" fill="#d9e2eb" />
+  <text class="tiny" x="620" y="531">&lt;video controls&gt;</text>
+
+  <rect class="soft" x="130" y="544" width="940" height="86" rx="5" />
+  <text class="small" x="146" y="568">&lt;section id="recursos"&gt;</text>
+
+  <rect x="146" y="576" width="360" height="44" fill="#ffffff" class="table" />
+  <line x1="146" y1="594" x2="506" y2="594" class="table" />
+  <line x1="280" y1="576" x2="280" y2="620" class="table" />
+  <line x1="370" y1="576" x2="370" y2="620" class="table" />
+  <text class="tiny" x="156" y="589">Recurso</text>
+  <text class="tiny" x="294" y="589">Tipo</text>
+  <text class="tiny" x="384" y="589">Link</text>
+  <text class="tiny" x="156" y="612">foto.jpg</text>
+  <text class="tiny" x="294" y="612">Imagem</text>
+  <text class="link" x="384" y="612">fonte</text>
+
+  <rect class="box" x="110" y="652" width="980" height="48" rx="6" />
+  <text class="small" x="130" y="682">Disciplina de Autoria Web - Material didático</text>
+  <text class="link" x="980" y="682">Voltar ao topo</text>
+  <text class="tiny" x="1030" y="682">&lt;footer&gt;</text>
+
+  <text class="mono" x="84" y="746">Exemplo simplificado de referência para os conteúdos trabalhados até o Encontro 9</text>
+</svg>
