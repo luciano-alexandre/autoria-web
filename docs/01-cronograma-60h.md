@@ -4,7 +4,7 @@ Referência: 40 encontros de 1,5h cada, organizados em 4 blocos de 10 encontros.
 
 ## 1º Bimestre (Encontros 1 a 10)
 Foco: Fundamentos da Web e HTML5 semântico.
-Avaliação do bloco: listas de exercícios + prova prática .
+Avaliação do bloco: lista de exercícios + atividade avaliativa.
 
 | Encontro | Carga | Tema Central | Entrega | Conteúdo da Aula |
 |---|---:|---|---|---|
@@ -17,7 +17,7 @@ Avaliação do bloco: listas de exercícios + prova prática .
 | 7 | 1,5h | Correção passo a passo da Atividade Avaliativa 01 | Versão corrigida do `index.html` | [Encontro 7](./encontros/encontro-7.md) |
 | 8 | 1,5h | Semântica HTML5 e Landmarks | - | [Encontro 8](./encontros/encontro-8.md) |
 | 9 | 1,5h | Imagens, Mídias, Figuras, Tabelas e Licenças |  | [Encontro 9](./encontros/encontro-9.md) |
-| 10 | 1,5h | Prova prática do bloco 1 (dia reservado) | Prova prática 1 | [Encontro 10](./encontros/encontro-10.md) |
+| 10 | 1,5h | Lista de exercícios  |  | [Encontro 10](./encontros/encontro-10.md) |
 
 ## 2º Bimestre (Encontros 11 a 20)
 Foco: CSS, layout e responsividade.
@@ -25,15 +25,15 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
-| 11 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado | [Encontro 11](./encontros/encontro-11.md) |
-| 12 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 12](./encontros/encontro-12.md) |
-| 13 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos | [Encontro 13](./encontros/encontro-13.md) |
-| 14 | 1,5h | Flexbox para layout de navegação e cards | Seção em Flexbox | [Encontro 14](./encontros/encontro-14.md) |
-| 15 | 1,5h | Grid para páginas e áreas de conteúdo | Página em Grid | [Encontro 15](./encontros/encontro-15.md) |
-| 16 | 1,5h | Responsividade: mobile-first, viewport e media queries | Página responsiva | [Encontro 16](./encontros/encontro-16.md) |
-| 17 | 1,5h | Lista de exercícios do bloco 2 (layout e responsividade) | Lista 2 entregue | [Encontro 17](./encontros/encontro-17.md) |
-| 18 | 1,5h | Desenvolvimento do mini projeto CSS | Mini projeto (versão beta) | [Encontro 18](./encontros/encontro-18.md) |
-| 19 | 1,5h | Apresentação curta do mini projeto (dia reservado) | Mini projeto apresentado | [Encontro 19](./encontros/encontro-19.md) |
+| 11 | 1,5h | Atividade Avaliativa do bloco 1 (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa 01 (PDF)](./atividades/Atividade%20Avaliativa%20-%20Autoria%20Web%20(1).pdf) |
+| 12 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado | [Encontro 12](./encontros/encontro-12.md) |
+| 13 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 13](./encontros/encontro-13.md) |
+| 14 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos | [Encontro 14](./encontros/encontro-14.md) |
+| 15 | 1,5h | Flexbox para layout de navegação e cards | Seção em Flexbox | [Encontro 15](./encontros/encontro-15.md) |
+| 16 | 1,5h | Grid para páginas e áreas de conteúdo | Página em Grid | [Encontro 16](./encontros/encontro-16.md) |
+| 17 | 1,5h | Responsividade: mobile-first, viewport e media queries | Página responsiva | [Encontro 17](./encontros/encontro-17.md) |
+| 18 | 1,5h | Lista de exercícios do bloco 2 (layout e responsividade) | Lista 2 entregue | [Encontro 18](./encontros/encontro-18.md) |
+| 19 | 1,5h | Desenvolvimento do mini projeto CSS | Mini projeto (versão beta) | [Encontro 19](./encontros/encontro-19.md) |
 | 20 | 1,5h | Prova do bloco 2 (dia reservado) | Prova 2 | [Encontro 20](./encontros/encontro-20.md) |
 
 ## 3º Bimestre (Encontros 21 a 30)
@@ -71,7 +71,7 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 | 40 | 1,5h | Apresentações de projetos finais e fechamento (dia reservado) | Apresentação final - turma B | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Marcos de Avaliação
-- Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 9) + Prova prática 1 (Encontro 10).
-- Unidade 2: Lista 2 (Encontro 17) + Mini projeto (Encontros 18 e 19) + Prova 2 (Encontro 20).
+- Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 10) + Atividade avaliativa do bloco 1 (Encontro 11).
+- Unidade 2: Lista 2 (Encontro 18) + Mini projeto (Encontro 19) + Prova 2 (Encontro 20).
 - Unidade 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
 - Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
