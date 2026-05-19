@@ -25,7 +25,7 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
-| 11 | 1,5h | Atividade Avaliativa do bloco 1 (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa 01 (PDF)](./atividades/Atividade%20Avaliativa%20-%20Autoria%20Web%20(1).pdf) |
+| 11 | 1,5h | Atividade Avaliativa do bloco 1 (dia reservado) | | |
 | 12 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 13](./encontros/encontro-13.md) |
 | 14 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos | [Encontro 14](./encontros/encontro-14.md) |
