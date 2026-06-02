@@ -13,7 +13,7 @@ Avaliação do bloco: lista de exercícios + atividade avaliativa.
 | 3 | 1,5h | Ambiente de desenvolvimento (editor, navegador, DevTools) | Ambiente configurado | [Encontro 3](./encontros/encontro-3.md) |
 | 4 | 1,5h | HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`) | Primeiro `index.html` | [Encontro 4](./encontros/encontro-4.md) |
 | 5 | 1,5h | Elementos textuais, links e listas | Página textual estruturada | [Encontro 5](./encontros/encontro-5.md) |
-| 6 | 1,5h | Atividade Avaliativa 01 (HTML5 - Unidade 1) | Atividade avaliativa entregue | [Atividade Avaliativa 01 (PDF)](./atividades/Atividade%20Avaliativa%20-%20Autoria%20Web%20(1).pdf) |
+| 6 | 1,5h | Atividade Avaliativa 01 (HTML5 - Unidade 1) | Atividade avaliativa entregue | [Atividade Avaliativa 01 (PDF)](./atividades/Atividade%20Avaliativa%20-%201%C2%BA%20BIM%2001%20-%20Autoria%20Web.pdf) |
 | 7 | 1,5h | Correção passo a passo da Atividade Avaliativa 01 | Versão corrigida do `index.html` | [Encontro 7](./encontros/encontro-7.md) |
 | 8 | 1,5h | Semântica HTML5 e Landmarks | - | [Encontro 8](./encontros/encontro-8.md) |
 | 9 | 1,5h | Imagens, Mídias, Figuras, Tabelas e Licenças |  | [Encontro 9](./encontros/encontro-9.md) |
@@ -25,7 +25,7 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
-| 11 | 1,5h | Atividade Avaliativa do bloco 1 (dia reservado) | | |
+| 11 | 1,5h | Atividade Avaliativa 02 do bloco 1 (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa 02 (PDF)](./atividades/Atividade%20Avaliativa%20-%201%C2%BA%20BIM%2002%20-%20Autoria%20Web.pdf) |
 | 12 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 13](./encontros/encontro-13.md) |
 | 14 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos | [Encontro 14](./encontros/encontro-14.md) |

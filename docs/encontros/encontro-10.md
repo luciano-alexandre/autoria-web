@@ -29,3 +29,8 @@ O objetivo é montar **uma única página principal** (`index.html`) com estrutu
 
 ## Exemplo visual do resultado esperado
 ![Exemplo visual do exercício do Encontro 10](./imagens/encontro-10-exec-resultado.svg)
+
+## Proposta de atividade avaliativa (modelo alternativo)
+Para preparar o encontro avaliativo do bloco, use a proposta abaixo com foco em combinação de tags em conjuntos:
+
+[Atividade Avaliativa 02 - Bloco 1 (HTML5 Integrado)](../atividades/03-atividade-avaliativa-02-html5-integrado.md)
