@@ -26,7 +26,7 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 11 | 1,5h | Atividade Avaliativa 02 do bloco 1 (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa 02 (PDF)](./atividades/Atividade%20Avaliativa%20-%201%C2%BA%20BIM%2002%20-%20Autoria%20Web.pdf) |
-| 12 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado | [Encontro 12](./encontros/encontro-12.md) |
+| 12 | 1,5h | Correção passo a passo da Atividade Avaliativa 02 | Versão corrigida do `index.html` | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 13](./encontros/encontro-13.md) |
 | 14 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos | [Encontro 14](./encontros/encontro-14.md) |
 | 15 | 1,5h | Flexbox para layout de navegação e cards | Seção em Flexbox | [Encontro 15](./encontros/encontro-15.md) |
@@ -71,7 +71,7 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 | 40 | 1,5h | Apresentações de projetos finais e fechamento (dia reservado) | Apresentação final - turma B | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Marcos de Avaliação
-- Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 10) + Atividade avaliativa do bloco 1 (Encontro 11).
+- Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 10) + Atividade avaliativa do bloco 1 (Encontro 11) + correção orientada (Encontro 12).
 - Unidade 2: Lista 2 (Encontro 18) + Mini projeto (Encontro 19) + Prova 2 (Encontro 20).
 - Unidade 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
 - Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
