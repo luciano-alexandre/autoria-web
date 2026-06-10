@@ -27,7 +27,7 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 |---|---:|---|---|---|
 | 11 | 1,5h | Atividade Avaliativa 02 do bloco 1 (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa 02 (PDF)](./atividades/Atividade%20Avaliativa%20-%201%C2%BA%20BIM%2002%20-%20Autoria%20Web.pdf) |
 | 12 | 1,5h | Correção passo a passo da Atividade Avaliativa 02 | Versão corrigida do `index.html` | [Encontro 12](./encontros/encontro-12.md) |
-| 13 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 13](./encontros/encontro-13.md) |
+| 13 | 1,5h | Introdução ao CSS: papel da linguagem, sintaxe, inclusão e seletores básicos | [Encontro 13](./encontros/encontro-13.md) |
 | 14 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos | [Encontro 14](./encontros/encontro-14.md) |
 | 15 | 1,5h | Flexbox para layout de navegação e cards | Seção em Flexbox | [Encontro 15](./encontros/encontro-15.md) |
 | 16 | 1,5h | Grid para páginas e áreas de conteúdo | Página em Grid | [Encontro 16](./encontros/encontro-16.md) |
