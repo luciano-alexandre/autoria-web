@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Avaliativa 02 - Reposição - Autoria Web</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 12mm 18mm;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #111;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        line-height: 1.27;
+      }
+
+      .instituicao {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .instituicao p {
+        margin: 0;
+      }
+
+      .dados {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 24px;
+        margin: 8px 0 13px;
+      }
+
+      .discente {
+        grid-column: 1 / -1;
+        margin-top: 5px;
+      }
+
+      h1 {
+        margin: 0 0 13px;
+        font-size: 15pt;
+        text-align: center;
+      }
+
+      h2 {
+        margin: 12px 0 5px;
+        font-size: 12pt;
+      }
+
+      h3 {
+        margin: 9px 0 4px;
+        font-size: 11pt;
+      }
+
+      p {
+        margin: 3px 0;
+        text-align: justify;
+      }
+
+      ul,
+      ol {
+        margin: 3px 0 5px;
+        padding-left: 24px;
+      }
+
+      li {
+        margin: 1px 0;
+      }
+
+      code {
+        font-family: "Liberation Mono", "Courier New", monospace;
+        font-size: 9.5pt;
+      }
+
+      .encadeamento {
+        margin: 3px 0;
+        padding: 4px 8px;
+        border-left: 3px solid #555;
+        background: #f3f3f3;
+      }
+
+      .nota {
+        margin: 7px 0;
+        padding: 5px 8px;
+        border: 1px solid #aaa;
+        background: #fafafa;
+      }
+
+      .bloco {
+        break-inside: avoid-page;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header class="instituicao">
+      <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+      <p>Campus Currais Novos</p>
+    </header>
+
+    <section class="dados" aria-label="Dados da atividade">
+      <div><strong>Turma:</strong> 1º ano - Informática</div>
+      <div><strong>Disciplina:</strong> Autoria Web</div>
+      <div><strong>Docente:</strong> Luciano Alexandre de Farias Silva</div>
+      <div><strong>Data:</strong> ____/____/______</div>
+      <div class="discente"><strong>Discente:</strong> ________________________________________________</div>
+    </section>
+
+    <h1>Atividade Avaliativa 02 - Reposição - 1º Bimestre</h1>
+
+    <section>
+      <h2>Orientações</h2>
+      <ul>
+        <li>A atividade avaliativa deverá ser realizada de forma individual.</li>
+        <li>Não poderá ser utilizado nenhum tipo de consulta durante a realização da atividade.</li>
+        <li>O código-fonte deverá ser enviado pela plataforma Google Sala de Aula.</li>
+        <li>A entrega deverá conter uma pasta com o arquivo <code>index.html</code> e os arquivos de mídia fornecidos pelo docente.</li>
+        <li>O envio deverá ser realizado até o horário informado pelo docente. Não será possível enviar a atividade após o fechamento da plataforma.</li>
+      </ul>
+    </section>
+
+    <main>
+      <section>
+        <h2>Questão proposta</h2>
+        <p>
+          Você foi convidado(a) para construir uma página com o tema
+          <strong>"Guia da Feira de Ciências e Tecnologia do Campus"</strong>. A página deverá orientar
+          visitantes sobre a programação, os projetos apresentados, as mídias do evento e outras
+          informações úteis.
+        </p>
+        <p>
+          O objetivo é demonstrar domínio dos conteúdos estudados, com foco em estrutura HTML5
+          completa, combinação de tags, aninhamento correto, semântica, navegação interna, listas,
+          mídias e tabelas.
+        </p>
+        <p>Monte uma única página chamada <code>index.html</code> contendo todos os blocos abaixo.</p>
+        <p class="nota">
+          Nos encadeamentos, <code>&gt;</code> indica que o elemento seguinte é filho do anterior e
+          <code>+</code> indica elementos irmãos dentro do mesmo elemento-pai.
+        </p>
+      </section>
+
+      <section class="bloco">
+        <h3>1. Estrutura do documento, topo e navegação interna</h3>
+        <div class="encadeamento">
+          <code>html &gt; head + body</code><br />
+          <code>body &gt; header + main + footer</code><br />
+          <code>header &gt; h1 + p + nav &gt; ul &gt; li &gt; a</code>
+        </div>
+        <p><strong>Requisitos:</strong></p>
+        <ul>
+          <li>criar a estrutura básica completa do HTML5, incluindo <code>&lt;!doctype html&gt;</code>, idioma, metadados, título e corpo;</li>
+          <li>definir o título da aba como <strong>"Guia da Feira de Ciências"</strong>;</li>
+          <li>criar um <code>h1</code> com <code>id="topo"</code> e inserir um parágrafo curto de apresentação;</li>
+          <li>criar um <code>nav</code> com lista não ordenada e 5 links internos: <code>#apresentacao</code>, <code>#programacao</code>, <code>#projetos</code>, <code>#midias</code> e <code>#informacoes</code>;</li>
+          <li>garantir que todos os links tenham um destino existente na página.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>2. Apresentação e orientações aos visitantes</h3>
+        <div class="encadeamento">
+          <code>main &gt; section#apresentacao &gt; h2 + article + aside</code>
+        </div>
+        <p><strong>Requisitos:</strong></p>
+        <ul>
+          <li>no <code>article</code>, usar <code>h3</code> e 2 parágrafos para explicar o objetivo da feira e o público visitante;</li>
+          <li>no <code>aside</code>, usar <code>h3</code> e uma lista não ordenada com pelo menos 3 recomendações aos visitantes.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>3. Programação do evento</h3>
+        <div class="encadeamento">
+          <code>section#programacao &gt; h2 + article &gt; h3 + ol</code>
+        </div>
+        <p><strong>Requisitos:</strong></p>
+        <ul>
+          <li>criar uma lista ordenada com pelo menos 4 momentos da programação, na ordem em que acontecerão;</li>
+          <li>informar um horário em cada item;</li>
+          <li>após a lista, inserir um parágrafo com um link para <code>https://portal.ifrn.edu.br/</code>;</li>
+          <li>usar o texto <strong>"Conheça o IFRN"</strong> no link externo.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>4. Projetos em destaque</h3>
+        <div class="encadeamento">
+          <code>section#projetos &gt; h2 + article + article</code>
+        </div>
+        <p><strong>Requisitos:</strong></p>
+        <ul>
+          <li>criar 2 elementos <code>article</code>, cada um representando um projeto diferente;</li>
+          <li>em cada <code>article</code>, inserir um <code>h3</code>, um parágrafo explicativo e uma lista não ordenada com pelo menos 2 informações;</li>
+          <li>as informações podem indicar área de conhecimento, turma responsável ou materiais utilizados.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>5. Registro em mídia</h3>
+        <div class="encadeamento">
+          <code>section#midias &gt; h2 + article &gt; h3 + figure + video</code><br />
+          <code>figure &gt; img + figcaption</code><br />
+          <code>video &gt; source + texto de fallback</code>
+        </div>
+        <p><strong>Requisitos:</strong></p>
+        <ul>
+          <li>inserir uma imagem relacionada à feira, com <code>alt</code> descritivo e <code>figcaption</code> coerente;</li>
+          <li>inserir um <code>video</code> com <code>controls</code>, largura definida e um elemento <code>source</code>;</li>
+          <li>informar o tipo do vídeo no atributo <code>type</code> e escrever um texto de fallback.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>6. Informações organizadas e fechamento</h3>
+        <div class="encadeamento">
+          <code>section#informacoes &gt; h2 + table</code><br />
+          <code>table &gt; caption + thead + tbody</code><br />
+          <code>footer &gt; p + p &gt; a</code>
+        </div>
+        <p><strong>Requisitos:</strong></p>
+        <ul>
+          <li>criar uma tabela com <code>caption</code>, <code>thead</code>, <code>tbody</code>, 4 colunas e pelo menos 4 linhas de dados;</li>
+          <li>usar <code>th</code> com <code>scope="col"</code> e as colunas <strong>Espaço</strong>, <strong>Atividade</strong>, <strong>Horário</strong> e <strong>Público</strong>;</li>
+          <li>no <code>footer</code>, inserir um parágrafo com os créditos da imagem e do vídeo, indicando origem ou autoria e licença de uso;</li>
+          <li>inserir o link interno <strong>"Voltar ao topo"</strong>, apontando para <code>#topo</code>.</li>
+        </ul>
+      </section>
+
+    </main>
+  </body>
+</html>
