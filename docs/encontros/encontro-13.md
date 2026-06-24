@@ -94,7 +94,7 @@ body {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Encontro 12 - Introdução ao CSS</title>
+    <title>Encontro 13 - Introdução ao CSS</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -172,4 +172,4 @@ Sua página deve conter:
 - [ ] Consigo testar visualmente se o CSS foi aplicado.
 
 ## Resumo Final
-Neste encontro, você iniciou o estudo de CSS e aprendeu a separar estrutura e apresentação. Essa base será aprofundada no próximo encontro com cascata, herança e especificidade.
+Neste encontro, você iniciou o estudo de CSS e aprendeu a separar estrutura e apresentação. Essa base será aprofundada no próximo encontro com tipografia, cores, unidades e variáveis CSS.
