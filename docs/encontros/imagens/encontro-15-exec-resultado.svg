@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-label="Previa do resultado esperado do projeto ao final do Encontro 15">
+  <rect width="1200" height="940" fill="#dce7f6"/>
+
+  <text x="80" y="54" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2d45">
+    Resultado esperado do projeto - Encontro 15
+  </text>
+
+  <rect x="80" y="88" width="1040" height="810" rx="16" fill="#ffffff" stroke="#b7c9e2"/>
+  <rect x="80" y="88" width="1040" height="48" rx="16" fill="#e2e8f0"/>
+  <circle cx="112" cy="112" r="7" fill="#ef4444"/>
+  <circle cx="136" cy="112" r="7" fill="#f59e0b"/>
+  <circle cx="160" cy="112" r="7" fill="#22c55e"/>
+  <text x="190" y="118" font-family="Arial, sans-serif" font-size="15" fill="#475569">portal-da-turma.html</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="120" y="156" width="960" height="96" rx="10" fill="#92c7ff"/>
+    <text x="150" y="202" font-size="35" font-weight="700" fill="#0f2a6b">Portal da Turma</text>
+    <text x="150" y="229" font-size="18" fill="#1f2d45">Projeto padrao da disciplina de Padroes Web</text>
+
+    <rect x="120" y="268" width="960" height="62" rx="10" fill="#edf0f5" stroke="#d5deea"/>
+
+    <rect x="150" y="284" width="108" height="30" rx="6" fill="#f8fbff" stroke="#b8c7df"/>
+    <text x="184" y="304" font-size="14" font-weight="700" fill="#11256c">Inicio</text>
+
+    <rect x="268" y="284" width="124" height="30" rx="6" fill="#f8fbff" stroke="#b8c7df"/>
+    <text x="299" y="304" font-size="14" font-weight="700" fill="#11256c">Conteudos</text>
+
+    <rect x="402" y="284" width="118" height="30" rx="6" fill="#f8fbff" stroke="#b8c7df"/>
+    <text x="434" y="304" font-size="14" font-weight="700" fill="#11256c">Exercicios</text>
+
+    <rect x="530" y="284" width="112" height="30" rx="6" fill="#f8fbff" stroke="#b8c7df"/>
+    <text x="562" y="304" font-size="14" font-weight="700" fill="#11256c">Materiais</text>
+
+    <rect x="652" y="284" width="102" height="30" rx="6" fill="#f8fbff" stroke="#b8c7df"/>
+    <text x="682" y="304" font-size="14" font-weight="700" fill="#11256c">Contato</text>
+
+    <rect x="150" y="350" width="900" height="130" rx="10" fill="#deecd4" stroke="#c6d6ea"/>
+    <text x="174" y="386" font-size="27" font-weight="700" fill="#214a1f">Sobre o Encontro</text>
+    <text x="174" y="414" font-size="17" fill="#1f2d45">Aplicacao de box model, bordas e espacos em um projeto continuo.</text>
+    <text x="174" y="438" font-size="17" fill="#1f2d45">A estrutura semantica do encontro 14 e mantida e evoluida.</text>
+
+    <rect x="150" y="498" width="900" height="220" rx="10" fill="#cfe2f8" stroke="#c6d6ea"/>
+    <text x="174" y="535" font-size="27" font-weight="700" fill="#173473">O que voce vai aprender</text>
+
+    <rect x="174" y="554" width="272" height="140" rx="8" fill="#f6faff" stroke="#aac1df"/>
+    <text x="194" y="585" font-size="22" font-weight="700" fill="#173473">Box Model</text>
+    <text x="194" y="612" font-size="16" fill="#1f2d45">Conteudo + padding + borda +</text>
+    <text x="194" y="634" font-size="16" fill="#1f2d45">margem para organizar blocos.</text>
+
+    <rect x="464" y="554" width="272" height="140" rx="8" fill="#f6faff" stroke="#aac1df"/>
+    <text x="484" y="585" font-size="22" font-weight="700" fill="#173473">Largura</text>
+    <text x="484" y="612" font-size="16" fill="#1f2d45">Uso de max-width para leitura</text>
+    <text x="484" y="634" font-size="16" fill="#1f2d45">confortavel em varias telas.</text>
+
+    <rect x="754" y="554" width="272" height="140" rx="8" fill="#f6faff" stroke="#aac1df"/>
+    <text x="774" y="585" font-size="22" font-weight="700" fill="#173473">Display</text>
+    <text x="774" y="612" font-size="16" fill="#1f2d45">Links em inline-block para</text>
+    <text x="774" y="634" font-size="16" fill="#1f2d45">menu e componentes clicaveis.</text>
+
+    <rect x="150" y="736" width="900" height="112" rx="10" fill="#f8e7a3" stroke="#c6d6ea"/>
+    <text x="174" y="772" font-size="27" font-weight="700" fill="#6f4b00">Aviso importante</text>
+    <text x="174" y="800" font-size="17" font-weight="700" fill="#5a4100">Este projeto sera evoluido nos proximos encontros.</text>
+
+    <rect x="792" y="776" width="236" height="44" rx="8" fill="#1f4a8a"/>
+    <text x="830" y="804" font-size="18" font-weight="700" fill="#ffffff">Continuar pratica</text>
+
+    <rect x="120" y="862" width="960" height="24" rx="8" fill="#c9d8eb"/>
+    <text x="150" y="879" font-size="14" fill="#1f2d45">Disciplina de Padroes Web</text>
+  </g>
+</svg>
