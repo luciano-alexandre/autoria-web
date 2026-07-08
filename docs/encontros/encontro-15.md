@@ -1,360 +1,303 @@
-# Encontro 15 - Flexbox para Navegação e Cards
+# Encontro 16 - Flexbox para Navegação, Agrupamentos e Cards
 
-**Bimestre:** 2º Bimestre  
-**Entrega:** Seção em Flexbox
+**Unidade:** Unidade 1  
 
 ## Visão Geral
-Neste encontro, você começa a organizar elementos na tela usando Flexbox.
-O foco é criar layouts em uma dimensão, principalmente menus de navegação, grupos de botões, linhas de cards e blocos que precisam de alinhamento mais controlado.
+Neste encontro, você continua exatamente o projeto do Encontro 15.
+A mudança agora é de organização: em vez de ajustar espaçamentos item por item, você usa Flexbox para alinhar e distribuir grupos de elementos.
 
-Se no encontro anterior você definiu uma base visual com tipografia, cores, unidades e variáveis, agora passa a distribuir os elementos na página de forma mais flexível e organizada.
+O objetivo é aproximar ainda mais o resultado visual da referência, com poucas alterações estruturais.
 
 ## Conceitos Essenciais
-- Diferença entre container flexível e itens flexíveis.
-- `display: flex`.
-- Eixo principal e eixo transversal.
-- Direção com `flex-direction`.
-- Alinhamento com `justify-content` e `align-items`.
-- Espaçamento entre itens com `gap`.
-- Quebra de linha com `flex-wrap`.
-- Distribuição de cards com `flex`.
+- O que é Flexbox e quando usar.
+- Contêiner flex e itens flex.
+- `justify-content`, `align-items` e `gap`.
+- `flex-wrap` e `flex` para cards.
+- Evolução incremental do mesmo projeto.
 
 ## 1) O que é Flexbox?
-Flexbox é um modelo de layout do CSS criado para organizar elementos em uma dimensão: linha ou coluna.
-Ele facilita o alinhamento e a distribuição de espaço entre itens.
+Flexbox é um modelo de layout **unidimensional** do CSS.
+Ele organiza elementos em **linha** ou **coluna**, com melhor controle de alinhamento e espaçamento.
 
-### Exemplo básico
-```css
-.menu {
-  display: flex;
-  gap: 1rem;
-}
-```
+Na prática:
+- você aplica `display: flex` no contêiner;
+- os elementos filhos viram itens flex;
+- `justify-content` controla a distribuição no eixo principal;
+- `align-items` controla o alinhamento no eixo transversal.
 
-Nesse exemplo, os elementos dentro de `.menu` passam a ser organizados lado a lado, com espaço entre eles.
+## 2) Ponto de partida (Encontro 15)
+Você já tem:
+- `header`, `nav`, `main`, seções e `footer`;
+- contêiner centralizado com `.container`;
+- blocos com borda e espaçamento (`.bloco`);
+- cards prontos com classe `.card`;
+- menu e botão estilizados com `inline-block`.
 
-## 2) Container flexível e itens flexíveis
-Quando aplicamos `display: flex` em um elemento, ele se torna o container flexível.
-Os filhos diretos desse container se tornam itens flexíveis.
+Agora vamos evoluir a mesma base com Flexbox, sem recomeçar o projeto.
 
-### Exemplo
-```html
-<nav class="menu">
-  <a href="#projetos">Projetos</a>
-  <a href="#equipe">Equipe</a>
-  <a href="#contato">Contato</a>
-</nav>
-```
+### Referência visual da sequência
+![Referência visual usada na continuidade do projeto](./imagens/encontro-15-exec-resultado.png)
 
-```css
-.menu {
-  display: flex;
-}
-```
+## 3) Passo 1 - HTML 
+O HTML permanece quase igual ao do Encontro 15.
+A única mudança é agrupar aviso e botão dentro de um contêiner para aplicar Flexbox nesse trecho.
 
-Neste caso, o `nav` é o container flexível e os links `a` são os itens flexíveis.
-
-## 3) Eixo principal e eixo transversal
-Flexbox trabalha com dois eixos:
-- eixo principal: direção em que os itens são distribuídos;
-- eixo transversal: direção perpendicular ao eixo principal.
-
-Por padrão, o eixo principal é horizontal, da esquerda para a direita.
-
-### Mudando a direção
-```css
-.grupo {
-  display: flex;
-  flex-direction: column;
-}
-```
-
-Com `flex-direction: column`, os itens passam a ser organizados em coluna.
-
-## 4) Alinhamento com Flexbox
-As duas propriedades mais usadas para alinhamento são `justify-content` e `align-items`.
-
-### `justify-content`
-Controla a distribuição dos itens no eixo principal.
-
-```css
-.menu {
-  display: flex;
-  justify-content: space-between;
-}
-```
-
-Valores comuns:
-- `flex-start`;
-- `center`;
-- `flex-end`;
-- `space-between`;
-- `space-around`;
-- `space-evenly`.
-
-### `align-items`
-Controla o alinhamento dos itens no eixo transversal.
-
-```css
-.topo {
-  display: flex;
-  align-items: center;
-}
-```
-
-Valores comuns:
-- `stretch`;
-- `flex-start`;
-- `center`;
-- `flex-end`.
-
-## 5) Espaçamento com `gap`
-O `gap` cria espaço entre os itens do container flexível.
-Ele é mais limpo do que aplicar margens individuais em cada item.
-
-### Exemplo
-```css
-.cards {
-  display: flex;
-  gap: 1rem;
-}
-```
-
-## 6) Quebra de linha com `flex-wrap`
-Quando há muitos itens em uma linha, eles podem ficar apertados.
-Com `flex-wrap`, os itens podem quebrar para a próxima linha.
-
-### Exemplo
-```css
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-```
-
-## 7) Cards flexíveis
-Cards são blocos de conteúdo que costumam repetir a mesma estrutura.
-Com Flexbox, é possível distribuir esses blocos de forma organizada.
-
-### Exemplo
-```css
-.card {
-  flex: 1 1 220px;
-}
-```
-
-Esse valor indica que o card pode crescer, pode encolher e tem uma largura base de `220px`.
-
-## 8) Exemplo principal do encontro
-### `index.html`
 ```html
 <!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox em Navegação e Cards</title>
+    <title>Portal da Turma - Projeto Padrão</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header id="topo" class="cabecalho">
-      <div>
-        <h1>Projetos da Turma</h1>
-        <p>Organização de cards com HTML semântico e Flexbox.</p>
+    <header id="topo" class="faixa">
+      <div class="container">
+        <h1>Portal da Turma</h1>
+        <p class="subtitulo">Projeto padrão da disciplina de Padrões Web</p>
       </div>
-
-      <nav class="menu" aria-label="Navegação principal">
-        <a href="#projetos">Projetos</a>
-        <a href="#equipe">Equipe</a>
-        <a href="#contato">Contato</a>
-      </nav>
     </header>
 
-    <main>
-      <section id="projetos">
-        <h2>Projetos em Destaque</h2>
+    <nav class="menu faixa" aria-label="Navegação principal">
+      <div class="container">
+        <a href="#inicio">Início</a>
+        <a href="#conteudos">Conteúdos</a>
+        <a href="#exercicios">Exercícios</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
 
-        <div class="cards">
+    <main id="inicio" class="container">
+      <section id="conteudos" class="bloco bloco-sobre">
+        <h2>Sobre o Encontro</h2>
+        <p>
+          Continuamos o projeto iniciado no encontro anterior, agora aplicando Flexbox
+          para alinhar navegação, agrupamentos e cartões com mais previsibilidade.
+        </p>
+      </section>
+
+      <section id="exercicios" class="bloco bloco-aprendizado">
+        <h2>O que você vai aprender</h2>
+        <div class="cards-aprendizado">
           <article class="card">
-            <h3>Guia de Estudos</h3>
-            <p>Site com resumos, links úteis e rotina de estudo para estudantes.</p>
-            <a href="#contato">Conversar com a equipe</a>
+            <h3>Menu Flexível</h3>
+            <p>Organizar links com `display: flex`, `gap` e quebra de linha.</p>
           </article>
-
           <article class="card">
-            <h3>Evento Escolar</h3>
-            <p>Página de divulgação com programação, local e informações do evento.</p>
-            <a href="#contato">Conversar com a equipe</a>
+            <h3>Cards Fluidos</h3>
+            <p>Distribuir cartões com base mínima e melhor aproveitamento da largura.</p>
           </article>
-
           <article class="card">
-            <h3>Campanha Local</h3>
-            <p>Projeto informativo com orientações e materiais de conscientização.</p>
-            <a href="#contato">Conversar com a equipe</a>
+            <h3>Agrupamento</h3>
+            <p>Alinhar conteúdo e ação no bloco de destaque sem ajustes manuais.</p>
           </article>
         </div>
       </section>
 
-      <section id="equipe">
-        <h2>Equipe</h2>
-        <p>
-          Os cards podem representar projetos, integrantes, etapas ou recursos
-          importantes de uma página.
-        </p>
+      <section id="materiais" class="bloco destaque">
+        <h2>Aviso importante</h2>
+        <div class="destaque-acao">
+          <p class="aviso" id="aviso-semana">
+            Este projeto continuará sendo reaproveitado e evoluído nos próximos encontros.
+          </p>
+          <a class="botao" href="#exercicios">Continuar prática</a>
+        </div>
       </section>
     </main>
 
-    <footer id="contato">
-      <p><a href="#topo">Voltar ao topo</a></p>
+    <footer id="contato" class="faixa">
+      <div class="container">
+        <p>Disciplina de Padrões Web</p>
+      </div>
     </footer>
   </body>
 </html>
 ```
 
-### `styles.css`
+### O que mudou no HTML?
+- apenas um novo agrupamento: `.destaque-acao`;
+- todo o restante permanece igual à versão do Encontro 15.
+
+## 4) Passo 2 - CSS 
+Mantenha todas as regras já construídas nos Encontros 14 e 15.
+Neste encontro, adicione apenas as regras abaixo.
+
+### Etapa 2.1 - Menu em Flexbox
 ```css
-:root {
-  --cor-principal: #174ea6;
-  --cor-fundo: #f6f8fc;
-  --cor-superficie: #ffffff;
-  --cor-texto: #202124;
-  --cor-borda: #d8dee9;
-  --espacamento: 1rem;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  background-color: var(--cor-fundo);
-  color: var(--cor-texto);
-}
-
-.cabecalho {
+.menu > .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 2rem;
-  background-color: var(--cor-principal);
-  color: var(--cor-superficie);
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-.cabecalho h1 {
-  margin: 0;
+.menu > .container a {
+  margin-right: 0;
 }
+```
+**Explicação dos novos elementos CSS**
+- `.menu > .container`: usa o combinador `>` (filho direto), então a regra vale apenas para o `.container` que é filho direto de `.menu`.
+- `display: flex`: transforma esse contêiner em flex e os filhos passam a ser itens flex.
+- `flex-wrap: wrap`: permite que os itens quebrem para outra linha quando não couberem.
+- `justify-content: center`: centraliza os itens no eixo principal (horizontal, nesse caso).
+- `gap: 0.5rem`: cria espaço entre os itens flex sem precisar de margens individuais.
+- `margin-right: 0`: remove a margem antiga dos links para não somar com o `gap`.
 
-.menu {
+**O que isso resolve**
+- transforma o grupo de links em um contêiner flex;
+- usa `gap` para espaçamento uniforme;
+- remove a margem antiga dos links para evitar espaçamento duplicado.
+
+### Etapa 2.2 - Cards em Flexbox
+```css
+.cards-aprendizado {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
 }
 
-.menu a {
-  color: var(--cor-superficie);
-  text-decoration: none;
-  font-weight: 700;
+.card {
+  flex: 1 1 16rem;
+  margin-bottom: 0;
 }
+```
+**Explicação dos novos elementos CSS**
+- `.cards-aprendizado`: seleciona o bloco que agrupa os cards.
+- `display: flex`: coloca os cards em layout flexível.
+- `flex-wrap: wrap`: permite quebra de linha dos cards.
+- `gap: 0.75rem`: define espaçamento uniforme entre os cards.
+- `flex: 1 1 16rem`: define como cada card ocupa espaço dentro da linha flex.
+- Primeiro `1` (`flex-grow`): se sobrar espaço na linha, o card pode crescer.
+- Segundo `1` (`flex-shrink`): se faltar espaço, o card pode encolher.
+- `16rem` (`flex-basis`): largura base inicial de cada card antes de crescer ou encolher.
+- Efeito prático: o navegador tenta manter cada card perto de `16rem`; quando cabe, distribui lado a lado; quando não cabe, quebra para a linha seguinte (junto com `flex-wrap: wrap`).
+- `margin-bottom: 0`: remove a margem vertical antiga, já substituída por `gap`.
 
-main,
-footer {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem;
-}
+**O que isso resolve**
+- mantém os cards na mesma linha quando houver espaço;
+- quebra para nova linha em larguras menores;
+- define base de `16rem` para manter legibilidade.
 
-.cards {
+### Etapa 2.3 - Aviso e botão no bloco de destaque
+```css
+.destaque-acao {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--espacamento);
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.destaque-acao .aviso {
+  margin: 0;
+  flex: 1 1 20rem;
+}
+```
+**Explicação dos novos elementos CSS**
+- `.destaque-acao`: novo contêiner para organizar aviso e botão juntos.
+- `display: flex`: ativa Flexbox no bloco de destaque.
+- `flex-wrap: wrap`: permite quebra quando a largura diminuir.
+- `align-items: center`: alinha os itens no eixo transversal (vertical, nesse caso).
+- `.destaque-acao .aviso`: combinador por descendência (espaço), seleciona `.aviso` dentro de `.destaque-acao`.
+- `margin: 0`: remove a margem padrão do parágrafo para facilitar o alinhamento.
+- `flex: 1 1 20rem`: mantém o aviso flexível e com base de leitura maior.
+
+**O que isso resolve**
+- alinha texto e botão no mesmo agrupamento;
+- permite quebra organizada em telas menores;
+- mantém o aviso com prioridade de largura.
+
+### CSS novo deste encontro (resumo)
+```css
+.menu > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.menu > .container a {
+  margin-right: 0;
+}
+
+.cards-aprendizado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .card {
-  flex: 1 1 220px;
-  padding: 1rem;
-  background-color: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
+  flex: 1 1 16rem;
+  margin-bottom: 0;
 }
 
-.card h3 {
-  margin-top: 0;
-  color: var(--cor-principal);
+.destaque-acao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
 }
 
-.card a {
-  color: var(--cor-principal);
-  font-weight: 700;
+.destaque-acao .aviso {
+  margin: 0;
+  flex: 1 1 20rem;
 }
 ```
 
-## 9) Exercício
-Crie uma página com `index.html` e `styles.css` contendo uma seção de cards organizada com Flexbox.
+## 5) Validação rápida da versão 3
+- O menu está em Flexbox e usa `gap`.
+- Os cards usam `flex` e quebram linha com `flex-wrap`.
+- O bloco de destaque alinha aviso e botão sem ajustes manuais de posição.
+- A base do Encontro 15 foi preservada, com poucas mudanças.
 
-Sua página deve conter:
-- `header` com título e menu de navegação;
-- `main` com uma seção principal;
-- pelo menos 3 cards usando `article`;
-- container dos cards com `display: flex`;
-- uso de `gap`;
-- uso de `flex-wrap`;
-- pelo menos uma regra com `justify-content` ou `align-items`;
-- cores, fontes e espaçamentos definidos no CSS externo.
+## 6) Erros comuns nesta evolução
+- aplicar `display: flex` no item em vez do contêiner;
+- esquecer de remover margens antigas ao usar `gap`;
+- não definir base mínima dos cards com `flex`;
+- alterar demais o HTML e perder continuidade com o Encontro 15.
 
-## 10) Aplicação no Trabalho em Dupla
-No trabalho em dupla iniciado no Encontro 14, a dupla deve revisar se o tema pesquisado permite incluir um exemplo com Flexbox.
-
-Sugestões de exemplos:
-- menu principal organizado com Flexbox;
-- lista de cards de conteúdos;
-- alinhamento de botões ou links;
-- galeria simples;
-- bloco de referências úteis;
-- seção de destaques em uma página.
-
-Mesmo que o tema escolhido não seja Flexbox, a dupla pode usar este encontro como referência para melhorar a apresentação visual dos exemplos de HTML e CSS da pesquisa.
-
-## 11) Validação rápida antes de considerar concluído
-- O Flexbox foi aplicado no container correto.
-- Os itens flexíveis são filhos diretos do container.
-- O menu ou os cards usam `gap`.
-- Os cards conseguem quebrar linha quando não houver espaço suficiente.
-- O layout continua legível em largura menor da janela.
-- O HTML mantém estrutura semântica.
-- O CSS continua em arquivo externo.
-
-## 12) Erros comuns de iniciantes
-- aplicar `display: flex` no item em vez do container;
-- esperar que `justify-content` funcione sem `display: flex`;
-- usar muitas margens nos itens quando `gap` resolveria melhor;
-- esquecer `flex-wrap`, deixando cards apertados demais;
-- usar Flexbox para layout de página inteira quando Grid seria mais adequado;
-- confundir alinhamento no eixo principal com alinhamento no eixo transversal.
+## 7) Prática Final - Projeto Padrão da Disciplina (Versão 3)
+Nesta versão, o projeto mantém a estrutura do Encontro 15 e ganha layout flexível nos pontos mais importantes.
+Isso prepara a transição para o Encontro 17, focado em tamanhos e unidades de medida no mesmo projeto.
 
 ## Materiais para Aprofundamento
-- [MDN - Conceitos básicos de Flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
-- [MDN - Alinhando itens em um container flex](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container)
-- [MDN - Propriedade flex-wrap](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap)
-- [MDN - Propriedade flex](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex)
+- [MDN - Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/CSS_layout/Flexbox)
+- [MDN - `justify-content`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/justify-content)
+- [MDN - `align-items`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/align-items)
+- [MDN - `gap`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/gap)
+- [MDN - `flex-wrap`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap)
+- [MDN - `flex`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex)
 
 ## Checklist de Compreensão
-- [ ] Consigo identificar o container flexível e os itens flexíveis.
-- [ ] Consigo usar `display: flex` para organizar elementos em linha ou coluna.
-- [ ] Consigo aplicar `justify-content` e `align-items`.
-- [ ] Consigo usar `gap` para espaçar itens.
-- [ ] Consigo criar uma seção de cards com `flex-wrap`.
+- [ ] Consigo explicar o que é Flexbox e quando usar.
+- [ ] Consigo aplicar `display: flex` no contêiner correto.
+- [ ] Consigo usar `gap` no lugar de margens repetidas.
+- [ ] Consigo distribuir cards com `flex` e `flex-wrap`.
+- [ ] Consigo evoluir a base do Encontro 15 com poucas mudanças.
 
 ## Resumo Final
-Neste encontro, você aprendeu a usar Flexbox para organizar menus, cards e grupos de elementos. Essa base será importante para construir layouts mais elaborados e para preparar a transição para CSS Grid no próximo encontro.
+Neste encontro, você manteve a base construída no Encontro 15 e aplicou Flexbox de forma objetiva em navegação, cards e bloco de destaque.
+Com poucas alterações, o layout ficou mais organizado e pronto para avançar para o estudo de dimensionamento em CSS.
 
-## Questões de Fixação
-1. O que acontece quando aplicamos `display: flex` em um elemento?
+## Prática Extra - Evolução Visual da Versão 3
+Agora, evolua o mesmo projeto para deixá-lo **mais próximo da imagem de referência** do encontro, sem mudar a estrutura principal do HTML.
 
-2. Qual é a diferença entre container flexível e item flexível?
+Use apenas elementos já estudados nos encontros anteriores (seletores, classes, cores, espaçamento, bordas, tipografia e Flexbox).
 
-3. Para que serve `gap` em um layout Flexbox?
+### Objetivo da prática
+Aprimorar acabamento visual e consistência do layout, mantendo a base do Encontro 16.
 
-4. Quando `flex-wrap` deve ser usado?
+### Ajustes sugeridos
+1. Defina um **background para os cards** (`.card`) para destacar melhor cada bloco de conteúdo.
+2. Reforce a separação visual dos cards com combinação de `border`, `border-radius` e `padding`.
+3. Revise contraste e legibilidade de títulos e textos dos cards.
+4. Harmonize os espaçamentos entre seções (`.bloco`) para manter ritmo vertical consistente.
+5. Ajuste o bloco de destaque (`.destaque`) para ficar visualmente coerente com os cards e com o menu.
+6. Faça uma revisão final de alinhamento usando as regras de Flexbox já aplicadas (`gap`, `justify-content`, `align-items`, `flex-wrap`).
 
-5. Cite uma situação em que Flexbox é mais adequado do que organizar elementos manualmente com margens.
+### Critérios de validação
+- O visual está mais próximo da referência sem reescrever a página.
+- Os cards possuem fundo e melhor definição de área.
+- O layout continua responsivo e com quebras organizadas.
+- A solução reaproveita classes e estrutura já existentes.
