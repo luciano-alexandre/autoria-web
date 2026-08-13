@@ -21,7 +21,7 @@ Avaliação do bloco: lista de exercícios + atividade avaliativa.
 
 ## 2º Bimestre (Encontros 11 a 20)
 Foco: CSS, layout e responsividade.
-Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias reservados).
+Avaliação do bloco: listas de exercícios + mini projeto + atividade avaliativa (com dia reservado).
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
@@ -34,16 +34,16 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 | 17 | 1,5h | Responsividade: mobile-first, viewport e media queries | Página responsiva | [Encontro 17](./encontros/encontro-17.md) |
 | 18 | 1,5h | Lista de exercícios do bloco 2 (layout e responsividade) | Lista 2 entregue | [Encontro 18](./encontros/encontro-18.md) |
 | 19 | 1,5h | Desenvolvimento do mini projeto CSS | Mini projeto (versão beta) | [Encontro 19](./encontros/encontro-19.md) |
-| 20 | 1,5h | Prova do bloco 2 (dia reservado) | Prova 2 | [Encontro 20](./encontros/encontro-20.md) |
+| 20 | 1,5h | Atividade Avaliativa do 2º bimestre (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa do 2º Bimestre](./atividades/04-atividade-avaliativa-03-portal-de-estudos-web.md) |
 
 ## 3º Bimestre (Encontros 21 a 30)
-Foco: JavaScript introdutório e manipulação de DOM.
+Foco: correção da avaliação anterior, JavaScript introdutório e manipulação de DOM.
 Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto final).
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
-| 21 | 1,5h | JavaScript no front-end, sintaxe básica e execução | Script inicial | [Encontro 21](./encontros/encontro-21.md) |
-| 22 | 1,5h | Variáveis, tipos e operadores | Exercícios JS I | [Encontro 22](./encontros/encontro-22.md) |
+| 21 | 1,5h | Correção passo a passo da Atividade Avaliativa do 2º bimestre | `index.html` e `styles.css` corrigidos | [Encontro 21](./encontros/encontro-21.md) |
+| 22 | 1,5h | JavaScript no front-end: execução, variáveis, tipos e operadores | Script inicial + exercícios JS I | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Condicionais e laços | Exercícios JS II | [Encontro 23](./encontros/encontro-23.md) |
 | 24 | 1,5h | Funções e organização de código | Biblioteca simples de funções | [Encontro 24](./encontros/encontro-24.md) |
 | 25 | 1,5h | DOM: árvore, seleção e alteração de conteúdo | Página dinâmica simples | [Encontro 25](./encontros/encontro-25.md) |
@@ -72,6 +72,6 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 
 ## Marcos de Avaliação
 - Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 10) + Atividade avaliativa do bloco 1 (Encontro 11) + correção orientada (Encontro 12).
-- Unidade 2: Lista 2 (Encontro 18) + Mini projeto (Encontro 19) + Prova 2 (Encontro 20).
-- Unidade 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
+- Unidade 2: Lista 2 (Encontro 18) + Mini projeto (Encontro 19) + Atividade Avaliativa do 2º bimestre (Encontro 20) + correção orientada (Encontro 21).
+- Unidade 3: introdução a JavaScript a partir do Encontro 22 + Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
 - Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).

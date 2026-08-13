@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal da Turma - Projeto Padrão</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+
+  <body>
+    <header id="topo" class="faixa">
+      <div class="container">
+        <h1>Portal da Turma</h1>
+        <p class="subtitulo">Projeto padrão da disciplina de Padrões Web</p>
+      </div>
+    </header>
+
+    <nav class="menu faixa" aria-label="Navegação principal">
+      <div class="container">
+        <a href="#inicio">Início</a>
+        <a href="#conteudos">Conteúdos</a>
+        <a href="#exercicios">Exercícios</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+
+    <main id="inicio" class="container">
+      <section id="conteudos" class="bloco bloco-sobre">
+        <h2>Sobre o Encontro</h2>
+        <p>
+          Continuamos o projeto iniciado no encontro anterior, agora aplicando Flexbox
+          para alinhar navegação, agrupamentos e cartões com mais previsibilidade. Continuamos o projeto iniciado no encontro anterior, agora aplicando Flexbox
+          para alinhar navegação, agrupamentos e cartões com mais previsibilidade.
+        </p>
+      </section>
+
+      <section id="exercicios" class="bloco bloco-aprendizado">
+        <h2>O que você vai aprender</h2>
+        <div class="cards-aprendizado">
+          <article class="card">
+            <h3>Menu Flexível</h3>
+            <p>Organizar links com `display: flex`, `gap` e quebra de linha.</p>
+          </article>
+          <article class="card">
+            <h3>Cards Fluidos</h3>
+            <p>Distribuir cartões com base mínima e melhor aproveitamento da largura.</p>
+          </article>
+          <article class="card">
+            <h3>Agrupamento</h3>
+            <p>Alinhar conteúdo e ação no bloco de destaque sem ajustes manuais.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="materiais" class="bloco destaque">
+        <h2>Aviso importante</h2>
+        <div class="destaque-acao">
+          <p class="aviso" id="aviso-semana">
+            Este projeto continuará sendo reaproveitado e evoluído nos próximos encontros.
+          </p>
+          <a class="botao" href="#exercicios">Continuar prática</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="faixa">
+      <div class="container">
+        <p>Disciplina de Padrões Web</p>
+      </div>
+    </footer>
+  </body>
+</html>

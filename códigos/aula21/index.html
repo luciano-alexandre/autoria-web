@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guia de Fundamentos da Web</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 id="topo">Guia de Fundamentos da Web</h1>
+        <p>Um roteiro para compreender a Web e revisar boas práticas de autoria.</p>
+        <nav aria-label="Navegação principal">
+          <ul>
+            <li><a href="#funcionamento">Como funciona</a></li>
+            <li><a href="#boas-praticas">Boas práticas</a></li>
+            <li><a href="#estudos">Plano de estudos</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="funcionamento">
+        <h2>Como a Web funciona</h2>
+        <p>A Internet é a infraestrutura que conecta redes e dispositivos. A Web é um serviço que usa essa infraestrutura para disponibilizar páginas e outros recursos.</p>
+        <ol>
+          <li>O usuário digita uma URL no navegador.</li>
+          <li>O DNS localiza o endereço do servidor.</li>
+          <li>O cliente envia uma requisição HTTP ao servidor.</li>
+          <li>O servidor responde e o navegador apresenta a página.</li>
+        </ol>
+        <p>A <strong>URL</strong> identifica o recurso, o <strong>DNS</strong> encontra o servidor e o <strong>HTTP</strong> define a comunicação entre o <strong>cliente</strong> — o <strong>navegador</strong> — e o <strong>servidor</strong>.</p>
+        <p><a href="https://github.com/luciano-alexandre/autoria-web">Consultar o material da disciplina de Autoria Web</a></p>
+      </section>
+
+      <section id="boas-praticas">
+        <h2>Boas práticas</h2>
+        <article>
+          <h3>Cuidados ao produzir uma página</h3>
+          <ul>
+            <li>Use elementos HTML de acordo com o significado do conteúdo.</li>
+            <li>Escreva textos de links claros e mantenha contraste adequado.</li>
+            <li>Organize e indente o código de maneira consistente.</li>
+          </ul>
+        </article>
+        <aside>
+          <strong>Atenção:</strong> não use títulos apenas para aumentar o tamanho do texto; preserve a hierarquia do conteúdo.
+        </aside>
+      </section>
+
+      <section id="estudos">
+        <h2>Plano de estudos</h2>
+        <div class="tabela-responsiva">
+          <table>
+            <caption>Roteiro de revisão dos fundamentos da Web</caption>
+            <thead>
+              <tr>
+                <th scope="col">Tema</th>
+                <th scope="col">Tecnologia</th>
+                <th scope="col">O que revisar</th>
+                <th scope="col">Material</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Estrutura</td><td>HTML</td><td>Elementos semânticos</td><td><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN HTML</a></td></tr>
+              <tr><td>Navegação</td><td>HTML</td><td>Links e identificadores</td><td>Anotações da aula</td></tr>
+              <tr><td>Apresentação</td><td>CSS</td><td>Cores e tipografia</td><td>Exemplos da aula</td></tr>
+              <tr><td>Espaçamento</td><td>CSS</td><td>Box model e unidades</td><td>Exercícios do bloco</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="referencias">
+        <h2>Referências</h2>
+        <ul>
+          <li>Material didático da disciplina de Autoria Web.</li>
+          <li><a href="https://developer.mozilla.org/pt-BR/">MDN Web Docs</a>.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Nome do estudante — 1º ano de Informática</p>
+        <a href="#topo">Voltar ao topo</a>
+      </div>
+    </footer>
+  </body>
+</html>

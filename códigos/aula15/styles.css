@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;  
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 92%;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+.faixa{
+    padding: 1rem 0;
+}
+
+.bloco{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #c6d6ea;
+    border-radius: 0.5rem;
+}
+
+.menu > .container a{
+    display: inline-block;
+    padding: 0.5rem 0.85rem;
+    margin-right: 0.4rem;
+    border: 1px solid #b8c7df;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.botao{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #1f4a8a;
+    border-radius: 0.4rem;
+}
+
+.card{
+    margin-bottom: 0.75rem;
+    padding: 0.85rem;
+    border: 1px solid #aac1df;
+    border-radius: 0.4rem;
+}

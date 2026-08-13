@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1100" viewBox="0 0 1200 1100" role="img" aria-labelledby="title description">
+  <title id="title">Exemplo visual do Guia de Fundamentos da Web</title>
+  <desc id="description">Página com cabeçalho azul, menu de navegação, explicação do funcionamento da Web, bloco de boas práticas, tabela de estudos e rodapé.</desc>
+  <rect width="1200" height="1100" fill="#edf2f7"/>
+  <rect x="100" y="45" width="1000" height="1010" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+
+  <path d="M112 45h976a12 12 0 0 1 12 12v183H100V57a12 12 0 0 1 12-12z" fill="#183b66"/>
+  <text x="150" y="115" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Guia de Fundamentos da Web</text>
+  <text x="150" y="160" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="21">Conceitos essenciais para começar a construir páginas web</text>
+  <rect x="100" y="190" width="1000" height="70" fill="#0f766e"/>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">
+    <text x="180" y="233">Como funciona</text>
+    <text x="410" y="233">Boas práticas</text>
+    <text x="625" y="233">Plano de estudos</text>
+    <text x="875" y="233">Referências</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="150" y="340" fill="#183b66" font-size="30" font-weight="700">Como a Web funciona</text>
+    <text x="165" y="395" fill="#0f766e" font-size="20" font-weight="700">1</text>
+    <text x="205" y="395" fill="#334155" font-size="18">O navegador interpreta a URL digitada pelo usuário.</text>
+    <text x="165" y="445" fill="#0f766e" font-size="20" font-weight="700">2</text>
+    <text x="205" y="445" fill="#334155" font-size="18">O DNS encontra o endereço do servidor solicitado.</text>
+    <text x="165" y="495" fill="#0f766e" font-size="20" font-weight="700">3</text>
+    <text x="205" y="495" fill="#334155" font-size="18">Cliente e servidor trocam mensagens por meio do HTTP.</text>
+
+    <rect x="150" y="555" width="900" height="125" rx="8" fill="#ecfdf5" stroke="#5eead4" stroke-width="2"/>
+    <text x="185" y="600" fill="#115e59" font-size="26" font-weight="700">Boas práticas</text>
+    <text x="185" y="645" fill="#334155" font-size="18">Use elementos semânticos, textos alternativos e títulos bem organizados.</text>
+
+    <text x="150" y="755" fill="#183b66" font-size="30" font-weight="700">Plano de estudos</text>
+    <rect x="150" y="785" width="900" height="55" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <g fill="#1e293b" font-size="17" font-weight="700">
+      <text x="175" y="820">Tema</text>
+      <text x="385" y="820">Tecnologia</text>
+      <text x="590" y="820">O que revisar</text>
+      <text x="900" y="820">Material</text>
+    </g>
+    <g fill="#334155" font-size="16">
+      <rect x="150" y="840" width="900" height="48" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="175" y="871">Semântica</text><text x="385" y="871">HTML</text><text x="590" y="871">Landmarks</text><text x="900" y="871">Encontro 8</text>
+      <rect x="150" y="888" width="900" height="48" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="175" y="919">Tipografia</text><text x="385" y="919">CSS</text><text x="590" y="919">Fontes e unidades</text><text x="900" y="919">Encontro 14</text>
+    </g>
+  </g>
+
+  <path d="M100 970h1000v73a12 12 0 0 1-12 12H112a12 12 0 0 1-12-12z" fill="#183b66"/>
+  <text x="150" y="1020" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="17">Estudante • 1º ano — Informática</text>
+  <text x="910" y="1020" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="17" text-decoration="underline">Voltar ao topo</text>
+</svg>

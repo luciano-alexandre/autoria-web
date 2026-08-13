@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Avaliativa - 2º Bimestre - Autoria Web</title>
+    <style>
+      @page { size: A4; margin: 12mm 18mm; }
+      * { box-sizing: border-box; }
+      body { margin: 0; color: #111; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.27; }
+      .instituicao { margin-bottom: 10px; text-align: center; }
+      .instituicao p { margin: 0; }
+      .dados { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 24px; margin: 8px 0 13px; }
+      .discente { grid-column: 1 / -1; margin-top: 5px; }
+      h1 { margin: 0 0 13px; font-size: 15pt; text-align: center; }
+      h2 { margin: 12px 0 5px; font-size: 12pt; }
+      h3 { margin: 9px 0 4px; font-size: 11pt; }
+      p { margin: 3px 0; text-align: justify; }
+      ul, ol { margin: 3px 0 5px; padding-left: 24px; }
+      li { margin: 1px 0; }
+      code { font-family: "Liberation Mono", "Courier New", monospace; font-size: 9.5pt; }
+      .bloco { break-inside: avoid-page; }
+      .visual { display: block; width: 100%; max-height: 190mm; margin: 7px auto 0; object-fit: contain; }
+    </style>
+  </head>
+  <body>
+    <header class="instituicao">
+      <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+      <p>Campus Currais Novos</p>
+    </header>
+
+    <section class="dados" aria-label="Dados da atividade">
+      <div><strong>Turma:</strong> 1º ano - Informática</div>
+      <div><strong>Disciplina:</strong> Autoria Web</div>
+      <div><strong>Docente:</strong> Luciano Alexandre de Farias Silva</div>
+      <div><strong>Data:</strong> ____/____/______</div>
+      <div class="discente"><strong>Discente:</strong> ________________________________________________</div>
+    </section>
+
+    <h1>Atividade Avaliativa - 2º Bimestre</h1>
+
+    <section>
+      <h2>Orientações</h2>
+      <ul>
+        <li>A atividade avaliativa deverá ser realizada de forma individual.</li>
+        <li>Poderá ser realizada consulta apenas ao material utilizado pelo docente durante as aulas. Não poderá ser utilizado nenhum outro tipo de consulta durante a realização da atividade.</li>
+        <li>O código-fonte deverá ser enviado pela plataforma Google Sala de Aula.</li>
+        <li>O envio deverá ser realizado até o horário informado pelo docente. Não será possível enviar a atividade após o fechamento da plataforma.</li>
+      </ul>
+    </section>
+
+    <main>
+      <section>
+        <h2>Problema</h2>
+        <p>Você deverá criar, do zero, uma página chamada <strong>Guia de Fundamentos da Web</strong>. Ela será um material de consulta para estudantes iniciantes e deverá explicar conceitos estudados nos encontros da disciplina de Autoria Web, por meio de uma estrutura HTML5 semântica e de uma identidade visual produzida com CSS.</p>
+        <p>A atividade integra os fundamentos da Web, a organização de conteúdo em HTML e os primeiros recursos de apresentação visual em CSS. Não é necessário utilizar JavaScript nem técnicas de layout que ainda não tenham sido estudadas.</p>
+      </section>
+
+      <section class="bloco">
+        <h2>Organização e entrega</h2>
+        <ol>
+          <li>Crie uma pasta com seu nome e sobrenome: <code>nome-sobrenome</code>.</li>
+          <li>Dentro dela, crie os arquivos <code>index.html</code> e <code>styles.css</code>.</li>
+          <li>Desenvolva todo o código a partir de arquivos vazios.</li>
+          <li>Entregue a pasta completa, compactada em formato <code>.zip</code>, pelo Google Sala de Aula.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Requisitos da página</h2>
+      </section>
+
+      <section class="bloco">
+        <h3>1. Estrutura do documento</h3>
+        <ul>
+          <li>usar <code>&lt;!doctype html&gt;</code> e o idioma <code>pt-BR</code>;</li>
+          <li>incluir <code>meta charset</code>, <code>meta viewport</code> e <code>title</code> dentro do <code>head</code>;</li>
+          <li>definir o título da aba como <strong>Guia de Fundamentos da Web</strong>;</li>
+          <li>conectar corretamente o arquivo externo <code>styles.css</code> com <code>link</code>;</li>
+          <li>organizar o <code>body</code> com <code>header</code>, <code>nav</code>, <code>main</code> e <code>footer</code>;</li>
+          <li>manter indentação consistente e aninhamento correto.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>2. Cabeçalho e navegação</h3>
+        <ul>
+          <li>criar um <code>h1</code> com <code>id="topo"</code> e um parágrafo de apresentação;</li>
+          <li>criar um <code>nav</code> com <code>aria-label="Navegação principal"</code>;</li>
+          <li>inserir links internos para <code>#funcionamento</code>, <code>#boas-praticas</code>, <code>#estudos</code> e <code>#referencias</code>;</li>
+          <li>garantir que cada link possua um destino existente;</li>
+          <li>incluir no rodapé o link <strong>Voltar ao topo</strong>, apontando para <code>#topo</code>.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>3. Seção “Como a Web funciona”</h3>
+        <p>Crie <code>section id="funcionamento"</code> contendo:</p>
+        <ul>
+          <li>um <code>h2</code>;</li>
+          <li>um parágrafo que diferencie Internet e Web;</li>
+          <li>uma lista ordenada que explique, resumidamente, o que acontece entre digitar uma URL e visualizar uma página;</li>
+          <li>uma explicação que use corretamente os termos <strong>URL</strong>, <strong>DNS</strong>, <strong>HTTP</strong>, <strong>cliente</strong>, <strong>servidor</strong> e <strong>navegador</strong>;</li>
+          <li>um link externo para o material da disciplina, com texto que explique claramente qual material será aberto.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>4. Seção “Boas práticas”</h3>
+        <p>Crie <code>section id="boas-praticas"</code> contendo:</p>
+        <ul>
+          <li>um <code>h2</code>;</li>
+          <li>um <code>article</code> com pelo menos três recomendações sobre semântica, acessibilidade ou organização do código;</li>
+          <li>um <code>aside</code> com um aviso curto sobre um erro comum de iniciantes.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>5. Seção “Plano de estudos”</h3>
+        <p>Crie <code>section id="estudos"</code> com uma tabela contendo:</p>
+        <ul>
+          <li><code>caption</code> descritivo, <code>thead</code> e <code>tbody</code>;</li>
+          <li>as colunas <strong>Tema</strong>, <strong>Tecnologia</strong>, <strong>O que revisar</strong> e <strong>Material</strong>;</li>
+          <li>cabeçalhos <code>th</code> com <code>scope="col"</code>;</li>
+          <li>pelo menos quatro linhas de dados;</li>
+          <li>pelo menos um link para um material de revisão.</li>
+        </ul>
+      </section>
+
+      <section class="bloco">
+        <h3>6. Referências e rodapé</h3>
+        <ul>
+          <li>criar uma área identificada por <code>id="referencias"</code>;</li>
+          <li>apresentar, em uma lista, pelo menos duas fontes consultadas;</li>
+          <li>inserir no <code>footer</code> o nome do estudante, a turma e o link <strong>Voltar ao topo</strong>.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Requisitos do CSS</h2>
+        <p>O arquivo <code>styles.css</code> deverá conter:</p>
+        <ul>
+          <li>estilos para <code>body</code>, <code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code> e <code>footer</code>;</li>
+          <li>tipografia legível com <code>font-family</code>, <code>font-size</code> e <code>line-height</code>;</li>
+          <li>hierarquia visual entre <code>h1</code>, <code>h2</code>, <code>h3</code> e os parágrafos;</li>
+          <li>paleta de cores coerente e contraste adequado entre texto e fundo;</li>
+          <li>conteúdo com largura máxima e centralização usando <code>max-width</code> e <code>margin</code>;</li>
+          <li>aplicação intencional de <code>margin</code> e <code>padding</code>;</li>
+          <li>uso de unidades relativas, como <code>%</code> e <code>rem</code>, nos tamanhos e espaçamentos principais;</li>
+          <li>estilos por elemento, classe e identificador;</li>
+          <li>destaque visual para o <code>aside</code>;</li>
+          <li>estilos básicos para links e tabela.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Exemplo visual do resultado esperado</h2>
+        <p>O exemplo abaixo apresenta uma possibilidade de organização visual. Ele serve como referência para hierarquia, cores e espaçamentos; não é necessário reproduzi-lo exatamente. O conteúdo e o código deverão respeitar os requisitos desta atividade.</p>
+        <img class="visual" src="./imagens/atividade-04-exemplo-visual.svg" alt="Exemplo visual da página Guia de Fundamentos da Web" />
+      </section>
+    </main>
+  </body>
+</html>
