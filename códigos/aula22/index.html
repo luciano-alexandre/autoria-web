@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel de Estudos JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <p class="etiqueta">Autoria Web • Encontro 22</p>
+        <h1>Painel de Estudos JavaScript</h1>
+        <p>Um primeiro script para transformar dados em informações úteis.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section aria-labelledby="titulo-resumo">
+        <h2 id="titulo-resumo">Resumo do estudante</h2>
+        <div class="grade-cards">
+          <article class="card">
+            <h3>Estudante</h3>
+            <p id="nome-estudante" class="valor">Carregando...</p>
+          </article>
+
+          <article class="card">
+            <h3>Progresso</h3>
+            <p id="progresso" class="valor">0%</p>
+          </article>
+
+          <article class="card">
+            <h3>Situação</h3>
+            <p id="situacao" class="valor">Calculando...</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="titulo-detalhes">
+        <h2 id="titulo-detalhes">Detalhes calculados pelo JavaScript</h2>
+        <dl class="detalhes">
+          <div>
+            <dt>Aulas concluídas</dt>
+            <dd id="aulas-concluidas">0 de 0</dd>
+          </div>
+          <div>
+            <dt>Pontos acumulados</dt>
+            <dd id="pontos">0 pontos</dd>
+          </div>
+          <div>
+            <dt>Próxima aula</dt>
+            <dd id="proxima-aula">Não definida</dd>
+          </div>
+        </dl>
+      </section>
+
+      <aside class="dica">
+        <strong>Dica:</strong> abra o Console do navegador com <kbd>F12</kbd> para
+        acompanhar os valores e os tipos usados pelo script.
+      </aside>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Exemplo integrado de HTML, CSS e JavaScript.</p>
+      </div>
+    </footer>
+  </body>
+</html>
