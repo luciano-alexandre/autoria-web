@@ -1,0 +1,45 @@
+:root {
+  --cor-primaria: #173b57;
+  --cor-destaque: #0b7285;
+  --cor-sucesso: #2b8a3e;
+  --cor-fundo: #eef3f6;
+  --cor-superficie: #ffffff;
+  --cor-texto: #24313a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container { width: 90%; max-width: 64rem; margin: 0 auto; }
+
+header, footer { padding: 2rem 0; background: var(--cor-primaria); color: #fff; }
+header h1, header p, footer p { margin-top: 0; }
+.etiqueta { margin-bottom: 0.25rem; color: #a5d8ff; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; }
+main { padding: 1rem 0 2rem; }
+
+section, .dica {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+  background: var(--cor-superficie);
+}
+
+h2 { margin-top: 0; color: var(--cor-primaria); }
+.grade-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1rem; }
+.card { padding: 1rem; border: 0.0625rem solid #c7d3dc; border-top: 0.3rem solid var(--cor-destaque); border-radius: 0.4rem; }
+.card h3 { margin: 0; font-size: 1rem; }
+.valor { margin: 0.5rem 0 0; color: var(--cor-destaque); font-size: 1.35rem; font-weight: 700; }
+.valor.sucesso { color: var(--cor-sucesso); }
+#lista-revisao { padding-left: 1.5rem; }
+#lista-revisao li + li { margin-top: 0.4rem; }
+.dica { border-left: 0.35rem solid #f59f00; background: #fff9db; }
+code { padding: 0.1rem 0.3rem; border-radius: 0.2rem; background: #e9ecef; }
+footer { text-align: center; }
+footer p { margin-bottom: 0; }
