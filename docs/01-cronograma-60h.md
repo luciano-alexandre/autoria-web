@@ -37,8 +37,8 @@ Avaliação do bloco: listas de exercícios + mini projeto + atividade avaliativ
 | 20 | 1,5h | Atividade Avaliativa do 2º bimestre (dia reservado) | Atividade avaliativa entregue | [Atividade Avaliativa do 2º Bimestre](./atividades/04-atividade-avaliativa-03-portal-de-estudos-web.md) |
 
 ## 3º Bimestre (Encontros 21 a 30)
-Foco: correção da avaliação anterior, JavaScript introdutório e manipulação de DOM.
-Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto final).
+Foco: correção da avaliação anterior, JavaScript introdutório, atividade prática e integração de HTML, CSS e JavaScript.
+Avaliação do bloco: atividade avaliativa prática + lista de exercícios + pequeno projeto prático com apresentação.
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
@@ -46,12 +46,12 @@ Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto
 | 22 | 1,5h | JavaScript no front-end: execução, variáveis, tipos e operadores | Script inicial + exercícios JS I | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Condicionais e laços | Exercícios JS II | [Encontro 23](./encontros/encontro-23.md) |
 | 24 | 1,5h | Funções e organização de código | Biblioteca simples de funções | [Encontro 24](./encontros/encontro-24.md) |
-| 25 | 1,5h | DOM: árvore, seleção e alteração de conteúdo | Página dinâmica simples | [Encontro 25](./encontros/encontro-25.md) |
+| 25 | 1,5h | Atividade avaliativa prática de JavaScript introdutório | Atividade prática entregue | Material da atividade avaliativa |
 | 26 | 1,5h | Eventos e manipulação de classes/atributos | Interface interativa | [Encontro 26](./encontros/encontro-26.md) |
 | 27 | 1,5h | Formulários com validação em JavaScript | Formulário validado | [Encontro 27](./encontros/encontro-27.md) |
 | 28 | 1,5h | Lista de exercícios do bloco 3 (JS + DOM) | Lista 3 entregue | [Encontro 28](./encontros/encontro-28.md) |
-| 29 | 1,5h | Mini projeto JS/DOM (desenvolvimento) | Mini projeto funcional | [Encontro 29](./encontros/encontro-29.md) |
-| 30 | 1,5h | Apresentação do mini projeto e definição do escopo final | Mini projeto apresentado + proposta final | [Encontro 30](./encontros/encontro-30.md) |
+| 29 | 1,5h | Apresentações do pequeno projeto prático — HTML, CSS e JavaScript básico (turma A) | Projeto apresentado — turma A | [Encontro 29](./encontros/encontro-29.md) |
+| 30 | 1,5h | Apresentações do pequeno projeto prático — HTML, CSS e JavaScript básico (turma B) | Projeto apresentado — turma B | [Encontro 30](./encontros/encontro-30.md) |
 
 ## 4º Bimestre (Encontros 31 a 40)
 Foco: Projeto final integrador (HTML + CSS + JS + DOM).
@@ -73,5 +73,5 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 ## Marcos de Avaliação
 - Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 10) + Atividade avaliativa do bloco 1 (Encontro 11) + correção orientada (Encontro 12).
 - Unidade 2: Lista 2 (Encontro 18) + Mini projeto (Encontro 19) + Atividade Avaliativa do 2º bimestre (Encontro 20) + correção orientada (Encontro 21).
-- Unidade 3: introdução a JavaScript a partir do Encontro 22 + Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
+- Unidade 3: introdução a JavaScript a partir do Encontro 22 + Atividade Avaliativa Prática (Encontro 25) + Lista 3 (Encontro 28) + pequeno projeto integrando HTML, CSS e JavaScript básico até estruturas de repetição, com apresentações divididas entre os Encontros 29 e 30.
 - Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).

@@ -8,9 +8,6 @@
 
 Neste encontro, reorganizamos o **Painel de Estudos JavaScript**. Os cálculos, diagnósticos e textos produzidos no Encontro 23 serão separados em funções pequenas, nomeadas e reutilizáveis. O resultado será uma biblioteca simples de funções e um script principal mais fácil de ler e testar.
 
-**Arquivos completos do exemplo:**  
-[HTML](../../códigos/aula24/index.html) | [CSS](../../códigos/aula24/styles.css) | [JavaScript](../../códigos/aula24/script.js)
-
 ## Conceitos Essenciais
 
 - declaração e chamada de funções;
