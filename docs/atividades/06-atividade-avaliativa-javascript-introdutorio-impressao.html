@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Avaliativa - JavaScript - Autoria Web</title>
+    <style>
+      @page { size: A4; margin: 11mm 17mm; }
+      * { box-sizing: border-box; }
+      body { margin: 0; color: #111; font: 9.4pt/1.23 Arial, Helvetica, sans-serif; }
+      .instituicao { margin: 0 0 8px; padding: 7px 12px; border-left: 7px solid #000; }
+      .instituicao p { margin: 0; }
+      .dados { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 24px; margin: 6px 0 9px; }
+      .discente { grid-column: 1 / -1; margin-top: 4px; }
+      h1 { margin: 0 0 9px; padding: 8px 12px; border: 1px solid #000; color: #000; font-size: 14pt; }
+      h1::after { content: "JAVASCRIPT"; float: right; color: #000; font-size: 8.5pt; line-height: 16pt; }
+      h2 { margin: 8px 0 3px; color: #000; font-size: 11pt; }
+      p { margin: 2px 0; text-align: justify; }
+      ul, ol { margin: 2px 0 4px; padding-left: 22px; }
+      li { margin: 0; }
+      code { font: 8.7pt "Liberation Mono", "Courier New", monospace; }
+      pre { margin: 4px 0; padding: 6px 9px; border: 1px solid #777; font: 8.5pt/1.2 "Liberation Mono", "Courier New", monospace; white-space: pre-wrap; }
+      table { width: 100%; margin: 4px 0 6px; border-collapse: collapse; break-inside: avoid-page; }
+      th, td { padding: 3px 5px; border: 1px solid #aeb6c7; text-align: left; }
+      th { font-weight: 700; }
+      .bloco { break-inside: avoid-page; }
+    </style>
+  </head>
+  <body>
+    <header class="instituicao">
+      <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+      <p>Campus Currais Novos</p>
+    </header>
+
+    <section class="dados" aria-label="Dados da atividade">
+      <div><strong>Turma:</strong> 1º ano — Informática</div>
+      <div><strong>Disciplina:</strong> Autoria Web</div>
+      <div><strong>Docente:</strong> Luciano Alexandre de Farias Silva</div>
+      <div><strong>Data:</strong> ______________</div>
+      <div class="discente"><strong>Discente:</strong> ________________________________________________</div>
+    </section>
+
+    <h1>Atividade Avaliativa</h1>
+
+    <section>
+      <h2>Orientações</h2>
+      <ul>
+        <li>A atividade avaliativa deverá ser realizada individualmente.</li>
+        <li>Poderá ser consultado apenas o material utilizado pelo docente durante as aulas.</li>
+        <li>Não será permitido copiar código de colegas nem utilizar ferramentas de geração automática de código.</li>
+        <li>O código-fonte deverá ser enviado pelo Google Sala de Aula até o horário de fim da aula.</li>
+        <li>Antes do envio, execute o programa e verifique se o Console não apresenta erros.</li>
+      </ul>
+    </section>
+
+    <main>
+      <section>
+        <h2>Problema</h2>
+        <p>Desenvolva, em JavaScript, um <strong>Painel de Missões de Programação</strong>. O programa acompanhará os pontos de um estudante em quatro missões, calculará seu desempenho e mostrará um relatório no Console.</p>
+        <p>A avaliação será exclusivamente sobre JavaScript e utilizará os conteúdos dos Encontros 22, 23 e 24:</p>
+        <ul>
+          <li>variáveis, tipos de dados e operadores;</li>
+          <li>condicionais;</li>
+          <li>arrays e estruturas de repetição;</li>
+          <li>funções, parâmetros e retorno;</li>
+          <li>exibição de resultados no Console.</li>
+        </ul>
+        <p>Não utilize eventos, formulários, manipulação do HTML, objetos, métodos de array ou recursos que ainda não tenham sido estudados.</p>
+      </section>
+
+      <section class="bloco">
+        <h2>Organização e entrega</h2>
+        <ol>
+          <li>Crie uma pasta com seu nome e sobrenome no formato <code>nome-sobrenome</code>.</li>
+          <li>Dentro dela, crie <code>index.html</code> e <code>script.js</code>.</li>
+          <li>Use o HTML apenas para carregar <code>script.js</code> com o atributo <code>defer</code>.</li>
+          <li>Desenvolva toda a atividade em <code>script.js</code>.</li>
+          <li>Compacte a pasta em <code>.zip</code> e envie-a pelo Google Sala de Aula.</li>
+        </ol>
+        <pre>nome-sobrenome/
+├── index.html
+└── script.js</pre>
+        <p>O HTML não será avaliado visualmente e não precisa de CSS nem de conteúdo no <code>body</code>.</p>
+      </section>
+
+      <section class="bloco">
+        <h2>1. Dados obrigatórios</h2>
+        <p>No início de <code>script.js</code>, declare variáveis para estes dados:</p>
+        <table>
+          <thead><tr><th>Dado</th><th>Valor inicial</th><th>Tipo esperado</th></tr></thead>
+          <tbody>
+            <tr><td>nome do estudante</td><td>seu nome</td><td><code>string</code></td></tr>
+            <tr><td>pontos das missões</td><td><code>80</code>, <code>90</code>, <code>70</code> e <code>100</code></td><td>array de <code>number</code></td></tr>
+            <tr><td>entrega final realizada</td><td><code>true</code></td><td><code>boolean</code></td></tr>
+            <tr><td>pontuação mínima</td><td><code>70</code></td><td><code>number</code></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="bloco">
+        <h2>2. Total e média</h2>
+        <p>Crie uma função que receba o array, percorra-o com <code>for</code> ou <code>while</code>, some os pontos e retorne o total.</p>
+        <p>Crie outra função que receba o total e a quantidade de missões, calcule a média e retorne o resultado.</p>
+        <p>Com os valores iniciais, o programa deverá obter:</p>
+        <pre>Total de pontos: 340
+Média: 85</pre>
+      </section>
+
+      <section class="bloco">
+        <h2>3. Missões concluídas</h2>
+        <p>Use uma estrutura de repetição para contar quantas missões possuem pontuação maior ou igual à pontuação mínima.</p>
+        <p>Use o tamanho do array como limite da repetição. Não escreva diretamente o número <code>4</code> como limite.</p>
+        <p>Com os valores iniciais, mostre:</p>
+        <pre>Missões concluídas: 4 de 4</pre>
+      </section>
+
+      <section class="bloco">
+        <h2>4. Classificação</h2>
+        <p>Crie uma terceira função que receba a média e a situação da entrega final. Ela deverá retornar:</p>
+        <ol>
+          <li><strong>Destaque</strong>, se a média for maior ou igual a <code>80</code> <strong>e</strong> a entrega tiver sido realizada;</li>
+          <li><strong>Em progresso</strong>, se a condição anterior for falsa e a média for maior ou igual a <code>60</code>;</li>
+          <li><strong>Precisa revisar</strong>, nos demais casos.</li>
+        </ol>
+        <p>Use também uma decisão simples para transformar o valor da entrega em <strong>Entregue</strong> ou <strong>Pendente</strong>.</p>
+      </section>
+
+      <section class="bloco">
+        <h2>5. Relatório das missões</h2>
+        <p>Use uma estrutura de repetição para mostrar cada missão no Console:</p>
+        <pre>Missão 1: 80 pontos
+Missão 2: 90 pontos
+Missão 3: 70 pontos
+Missão 4: 100 pontos</pre>
+        <p>Obtenha o número da missão a partir do contador do laço.</p>
+      </section>
+
+      <section class="bloco">
+        <h2>6. Resultado no Console</h2>
+        <p>Com os valores iniciais, o Console deverá apresentar informações equivalentes a estas:</p>
+        <pre>PAINEL DE MISSÕES DE PROGRAMAÇÃO
+Estudante: Nome do estudante
+Missão 1: 80 pontos
+Missão 2: 90 pontos
+Missão 3: 70 pontos
+Missão 4: 100 pontos
+Total de pontos: 340
+Média: 85
+Missões concluídas: 4 de 4
+Entrega final: Entregue
+Classificação: Destaque</pre>
+        <p>Use template literals em pelo menos parte das mensagens. Todos os <code>console.log</code> deverão possuir rótulos claros.</p>
+      </section>
+
+      <section class="bloco">
+        <h2>7. Organização de <code>script.js</code></h2>
+        <p>Organize o arquivo nesta ordem:</p>
+        <ol>
+          <li>funções;</li>
+          <li>dados iniciais;</li>
+          <li>chamadas das funções e armazenamento dos resultados;</li>
+          <li>apresentação do relatório no Console.</li>
+        </ol>
+        <p>Devem existir, no mínimo, três funções separadas para:</p>
+        <ol>
+          <li>somar os pontos;</li>
+          <li>calcular a média;</li>
+          <li>obter a classificação.</li>
+        </ol>
+        <p>As funções deverão possuir nomes claros, receber os dados por parâmetros e usar <code>return</code> para fornecer os resultados.</p>
+      </section>
+    </main>
+  </body>
+</html>

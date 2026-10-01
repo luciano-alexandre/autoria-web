@@ -46,8 +46,8 @@ Avaliação do bloco: atividade avaliativa prática + lista de exercícios + peq
 | 22 | 1,5h | JavaScript no front-end: execução, variáveis, tipos e operadores | Script inicial + exercícios JS I | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Condicionais e laços | Exercícios JS II | [Encontro 23](./encontros/encontro-23.md) |
 | 24 | 1,5h | Funções e organização de código | Biblioteca simples de funções | [Encontro 24](./encontros/encontro-24.md) |
-| 25 | 1,5h | Atividade avaliativa prática de JavaScript introdutório | Atividade prática entregue | Material da atividade avaliativa |
-| 26 | 1,5h | Eventos e manipulação de classes/atributos | Interface interativa | [Encontro 26](./encontros/encontro-26.md) |
+| 25 | 1,5h | Atividade avaliativa prática de JavaScript introdutório | Atividade prática entregue | [Atividade Avaliativa de JavaScript](./atividades/06-atividade-avaliativa-javascript-introdutorio.md) |
+| 26 | 1,5h | Correção passo a passo da atividade avaliativa de JavaScript | `index.html` e `script.js` corrigidos | [Encontro 26](./encontros/encontro-26.md) |
 | 27 | 1,5h | Formulários com validação em JavaScript | Formulário validado | [Encontro 27](./encontros/encontro-27.md) |
 | 28 | 1,5h | Lista de exercícios do bloco 3 (JS + DOM) | Lista 3 entregue | [Encontro 28](./encontros/encontro-28.md) |
 | 29 | 1,5h | Apresentações do pequeno projeto prático — HTML, CSS e JavaScript básico (turma A) | Projeto apresentado — turma A | [Encontro 29](./encontros/encontro-29.md) |
@@ -73,5 +73,5 @@ Avaliação do bloco: projeto final (única avaliação), com dias reservados pa
 ## Marcos de Avaliação
 - Unidade 1: Atividade Avaliativa 01 (Encontro 6) + correção orientada (Encontro 7) + Lista 1 (Encontro 10) + Atividade avaliativa do bloco 1 (Encontro 11) + correção orientada (Encontro 12).
 - Unidade 2: Lista 2 (Encontro 18) + Mini projeto (Encontro 19) + Atividade Avaliativa do 2º bimestre (Encontro 20) + correção orientada (Encontro 21).
-- Unidade 3: introdução a JavaScript a partir do Encontro 22 + Atividade Avaliativa Prática (Encontro 25) + Lista 3 (Encontro 28) + pequeno projeto integrando HTML, CSS e JavaScript básico até estruturas de repetição, com apresentações divididas entre os Encontros 29 e 30.
+- Unidade 3: introdução a JavaScript a partir do Encontro 22 + Atividade Avaliativa Prática (Encontro 25) + correção orientada (Encontro 26) + Lista 3 (Encontro 28) + pequeno projeto integrando HTML, CSS e JavaScript básico até estruturas de repetição, com apresentações divididas entre os Encontros 29 e 30.
 - Unidade 4: Projeto final (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
