@@ -48,7 +48,7 @@ Avaliação do bloco: atividade avaliativa prática + lista de exercícios + peq
 | 24 | 1,5h | Funções e organização de código | Biblioteca simples de funções | [Encontro 24](./encontros/encontro-24.md) |
 | 25 | 1,5h | Atividade avaliativa prática de JavaScript introdutório | Atividade prática entregue | [Atividade Avaliativa de JavaScript](./atividades/06-atividade-avaliativa-javascript-introdutorio.md) |
 | 26 | 1,5h | Correção passo a passo da atividade avaliativa de JavaScript | `index.html` e `script.js` corrigidos | [Encontro 26](./encontros/encontro-26.md) |
-| 27 | 1,5h | Formulários com validação em JavaScript | Formulário validado | [Encontro 27](./encontros/encontro-27.md) |
+| 27 | 1,5h | Orientação e início do pequeno projeto integrador em dupla | Dupla, tema, planejamento e estrutura inicial | [Encontro 27](./encontros/encontro-27.md) |
 | 28 | 1,5h | Lista de exercícios do bloco 3 (JS + DOM) | Lista 3 entregue | [Encontro 28](./encontros/encontro-28.md) |
 | 29 | 1,5h | Apresentações do pequeno projeto prático — HTML, CSS e JavaScript básico (turma A) | Projeto apresentado — turma A | [Encontro 29](./encontros/encontro-29.md) |
 | 30 | 1,5h | Apresentações do pequeno projeto prático — HTML, CSS e JavaScript básico (turma B) | Projeto apresentado — turma B | [Encontro 30](./encontros/encontro-30.md) |
