@@ -191,12 +191,12 @@ Produza um site com orientações de segurança digital e seis pontuações fict
 
 ### Ideia 20 - Agenda de eventos do campus
 
-**Responsáveis:** a definir.
+**Responsáveis:** João Gabriel e Daniel.
 
 Crie um site para divulgar seis eventos e use no JavaScript suas durações ou quantidades previstas de participantes. Calcule total, média, quantidade de eventos acima de uma referência e classifique a programação como **Intensa**, **Equilibrada** ou **Compacta**.
 
 ### Ideia 21 - Cuidados com animais de estimação
 
-**Responsáveis:** João Gabriel e Daniel.
+**Responsáveis:** a definir.
 
 Monte uma página educativa sobre uma rotina fictícia de cuidados e seis durações ou pontuações de tarefas. Calcule total, média, tarefas que atingiram o tempo planejado e classifique a organização como **Rotina completa**, **Rotina parcial** ou **Rotina a organizar**. O site não deve substituir orientações de profissionais de saúde animal.
