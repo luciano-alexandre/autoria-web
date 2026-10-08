@@ -107,7 +107,7 @@ Monte uma página com dicas de organização financeira e seis valores economiza
 
 ### Ideia 6 - Monitor de gastos de uma viagem
 
-**Responsáveis:** a definir.
+**Responsáveis:** Ketelly e Lidia.
 
 Crie um site de planejamento de viagem com seis categorias de despesas representadas no HTML e seus valores no JavaScript. Calcule o gasto total, a média, quantas categorias ultrapassaram um limite e o saldo em relação ao orçamento. Classifique a situação como **Dentro do orçamento**, **Próximo do limite** ou **Acima do orçamento**.
 
