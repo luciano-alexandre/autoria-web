@@ -83,7 +83,7 @@ Crie um site para acompanhar as horas estudadas em seis disciplinas. A página d
 
 ### Ideia 2 - Acompanhamento de leitura
 
-**Responsáveis:** a definir.
+**Responsáveis:** Maria Helena e Anna Alice.
 
 Desenvolva um site para registrar páginas lidas em seis sessões de leitura. Inclua apresentação do livro, benefícios da leitura e cards de progresso. O JavaScript deve calcular páginas lidas, média por sessão, sessões que alcançaram a meta e uma classificação como **Leitura intensa**, **Bom ritmo** ou **Ritmo inicial**.
 
@@ -101,7 +101,7 @@ Produza um site com orientações gerais sobre movimento e um acompanhamento de 
 
 ### Ideia 5 - Planejador de economia pessoal
 
-**Responsáveis:** Davi e Jonathan; Antônio Carlos e Gabriel Lucas.
+**Responsáveis:** Antônio Carlos e Gabriel Lucas.
 
 Monte uma página com dicas de organização financeira e seis valores economizados. Calcule o total guardado, a média, quantos depósitos atingiram um valor mínimo e a diferença até uma meta. Classifique o progresso como **Meta alcançada**, **Em andamento** ou **Início da economia**.
 
@@ -167,7 +167,7 @@ Monte um site para apresentar seis opções ou dias de cardápio e suas notas de
 
 ### Ideia 16 - Consumo de energia de uma residência fictícia
 
-**Responsáveis:** a definir.
+**Responsáveis:** Davi e Jonathan.
 
 Crie uma página educativa sobre economia de energia e seis registros fictícios de consumo. O JavaScript deve calcular consumo total, média, quantidade de períodos acima de um limite e classificar o uso como **Econômico**, **Moderado** ou **Elevado**.
 
